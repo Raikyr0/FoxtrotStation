@@ -96,6 +96,8 @@
       collection: MaleLaugh
     Gekker: #Floof
       collection: VulpkaninGekker
+    Yap: #Floof
+      collection: VulpkaninYap
     Sneeze:
       collection: MaleSneezes
     Cough:
@@ -138,6 +140,8 @@
       collection: FemaleLaugh
     Gekker: #Floof
       collection: VulpkaninGekker
+    Yap: #Floof
+      collection: VulpkaninYap
     Sneeze:
       collection: FemaleSneezes
     Cough:
