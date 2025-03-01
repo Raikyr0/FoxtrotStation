@@ -312,6 +312,16 @@
       collection: KitsuneSqueal
     Growl:
       collection: KitsuneGrowl
+    Yap:
+      collection: VulpkaninYap
+    Gekker: #Floof
+      collection: VulpkaninGekker
+    Bark:
+      collection: VulpkaninBarks
+    Whine:
+      collection: VulpkaninWhines
+    Awoo:
+      collection: VulpkaninHowls
     # Gasp:
       # collection: MaleGasp
     # DefaultDeathgasp:
@@ -348,7 +358,17 @@
       collection: KitsuneSqueal
     Growl:
       collection: KitsuneGrowl
-    # Gasp:
+    Yap:
+      collection: VulpkaninYap
+    Gekker: #Floof
+      collection: VulpkaninGekker
+    Bark:
+      collection: VulpkaninBarks
+    Whine:
+      collection: VulpkaninWhines
+    Awoo:
+      collection: VulpkaninHowls
+      # Gasp:
       # collection: FemaleGasp
     # DefaultDeathgasp:
       # collection: FemaleDeathGasp
