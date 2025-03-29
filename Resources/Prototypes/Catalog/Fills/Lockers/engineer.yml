@@ -102,6 +102,7 @@
       - id: LunchboxEngineeringFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: AccessConfigurator
+      - id: ClothingBeltUtilityAtmos # Floofstation
 
 - type: entity
   id: LockerAtmosphericsFilled
@@ -124,6 +125,7 @@
       - id: LunchboxEngineeringFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: AccessConfigurator
+      - id: ClothingBeltUtilityAtmos # Floofstation
 
 - type: entity
   id: LockerEngineerFilledHardsuit
@@ -141,6 +143,7 @@
       - id: LunchboxEngineeringFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: AccessConfigurator
+      - id: ClothingBeltUtilityEngineering # Floofstation
 
 - type: entity
   id: LockerEngineerFilled
@@ -157,6 +160,7 @@
       - id: LunchboxEngineeringFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: AccessConfigurator
+      - id: ClothingBeltUtilityEngineering # Floofstation
 
 - type: entity
   id: ClosetRadiationSuitFilled
