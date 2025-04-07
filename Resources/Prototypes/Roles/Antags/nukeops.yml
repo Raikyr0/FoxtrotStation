@@ -10,6 +10,10 @@
   - !type:CharacterDepartmentTimeRequirement # DeltaV - Security dept time requirement
     department: Security
     min: 14400 # Floofstation - 4 hours
+  - !type:CharacterTraitRequirement # Floofstation
+    inverted: true
+    traits:
+      - Tiny # Floofstation - Too much of an advantage in a gunfight or stealth
   guides: [ NuclearOperatives ]
 
 - type: antag
@@ -24,6 +28,10 @@
   - !type:CharacterDepartmentTimeRequirement # DeltaV - Medical dept time requirement
     department: Medical
     min: 14400 # Floofstation - 4 hours
+  - !type:CharacterTraitRequirement # Floofstation
+    inverted: true
+    traits:
+      - Tiny # Floofstation - Too much of an advantage in a gunfight or stealth
   guides: [ NuclearOperatives ]
 
 - type: antag
@@ -42,6 +50,10 @@
     department: Command
     min: 14400 # Floofstation - 4 hours
   - !type:CharacterWhitelistRequirement
+  - !type:CharacterTraitRequirement # Floofstation
+    inverted: true
+    traits:
+      - Tiny # Floofstation - Too much of an advantage in a gunfight or stealth
   guides: [ NuclearOperatives ]
 
 #Lone Operative Gear
