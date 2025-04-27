@@ -8,7 +8,12 @@
     tags:
     - FelinidEmotes
     - HarpyEmotes
+    - ShadowkinEmotes
+    - UnathiEmotes
+    - ChitinidEmotes # Floof - M3739 - #726
   blacklist:
+    tags:
+      - SiliconEmotes
     components:
     - BorgChassis
   chatMessages: [ hisses ]
@@ -24,7 +29,10 @@
     tags:
     - FelinidEmotes
     - HarpyEmotes
+    - ShadowkinEmotes
   blacklist:
+    tags:
+      - SiliconEmotes
     components:
     - BorgChassis
   chatMessages: [ meows ]
@@ -43,7 +51,10 @@
     tags:
     - FelinidEmotes
     - HarpyEmotes
+    - ShadowkinEmotes
   blacklist:
+    tags:
+      - SiliconEmotes
     components:
     - BorgChassis
   chatMessages: [ mews ]
@@ -59,7 +70,11 @@
     tags:
     - FelinidEmotes
     - HarpyEmotes
+    - ShadowkinEmotes
+    - VulpEmotes
   blacklist:
+    tags:
+      - SiliconEmotes
     components:
     - BorgChassis
   chatMessages: [ growls ]
@@ -75,7 +90,10 @@
     tags:
     - FelinidEmotes
     - HarpyEmotes
+    - ShadowkinEmotes
   blacklist:
+    tags:
+      - SiliconEmotes
     components:
     - BorgChassis
   chatMessages: [ purrs ]
