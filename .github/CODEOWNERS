@@ -1,6 +1,6 @@
-# The Den CODEOWNERS (It's me, hi, I'm the code owner)
+# Foxtrot Station CODEOWNERS 
 
-* @sleepyyapril
+* @barberd67
 
 # Maps
 /Resources/Maps/*.yml
