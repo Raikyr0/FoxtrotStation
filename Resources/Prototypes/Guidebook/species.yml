@@ -5,9 +5,9 @@
   children:
     - Arachnid
     - Diona
-    - Dwarf
     - Human
     - Moth
+    - Oni
     - Reptilian
     - SlimePerson
     - IPCs
@@ -19,7 +19,6 @@
     - Tajaran
     - Feroxi # DeltaV
     - Canid # TheDen
-    - Kitsune
 
 - type: guideEntry
   id: Arachnid
@@ -30,11 +29,6 @@
   id: Diona
   name: species-name-diona
   text: "/ServerInfo/Guidebook/Mobs/Diona.xml"
-
-- type: guideEntry
-  id: Dwarf
-  name: species-name-dwarf
-  text: "/ServerInfo/Guidebook/Mobs/Dwarf.xml"
 
 - type: guideEntry
   id: Human
@@ -67,41 +61,21 @@
   text: "/ServerInfo/Guidebook/Mobs/IPCs.xml"
 
 - type: guideEntry
-  id: Shadowkin
-  name: species-name-shadowkin
-  text: "/ServerInfo/Guidebook/Mobs/Shadowkin.xml"
-
-- type: guideEntry
   id: Harpy
   name: species-name-harpy
   text: "/ServerInfo/Guidebook/Mobs/Harpy.xml"
 
 - type: guideEntry
-  id: Oni
-  name: species-name-oni
-  text: "/ServerInfo/Guidebook/Mobs/DeltaV/Oni.xml"
+  id: Shadowkin
+  name: species-name-shadowkin
+  text: "/ServerInfo/Guidebook/Mobs/Shadowkin.xml"
 
 - type: guideEntry
-  id: Rodentia
-  name: species-name-rodentia
-  text: "/ServerInfo/Guidebook/Mobs/DeltaV/Rodentia.xml"
+  id: Tajaran
+  name: species-name-tajaran
+  text: "/ServerInfo/Guidebook/Mobs/Tajaran.xml"
 
 - type: guideEntry
-  id: Felinid
-  name: species-name-felinid
-  text: "/ServerInfo/Guidebook/Mobs/DeltaV/Felinid.xml"
-
-
-
-
-
-# Goob
-- type: guideEntry
-  id: Resomi
-  name: species-name-resomi
-  text: "/ServerInfo/Guidebook/Mobs/Resomi.xml"
-
-- type: guideEntry
-  id: Vulpkanin
-  name: species-name-vulpkanin
-  text: "/ServerInfo/Guidebook/Mobs/DeltaV/Vulpkanin.xml"
+  id: Plasmaman
+  name: species-name-plasmaman
+  text: "/ServerInfo/Guidebook/Mobs/Plasmaman.xml"
