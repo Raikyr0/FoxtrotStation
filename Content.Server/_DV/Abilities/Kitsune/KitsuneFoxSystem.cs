@@ -22,7 +22,8 @@ public sealed class KitsuneFoxSystem : EntitySystem
     {
         if (!TryComp<PolymorphedEntityComponent>(ent, out var polymorph))
             return;
-
+        var staminaDamage = _stamina.GetStaminaDamage(ent);
+        _stamina.TakeStaminaDamage(polymorph.Parent, staminaDamage);
         _polymorph.Revert(ent.Owner);
     }
 }
