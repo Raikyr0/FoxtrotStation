@@ -15,11 +15,9 @@
   - type: ShowHealthBars
     damageContainers:
     - Biological
-    - BiologicalMetaphysical # DeltaV - Kitsune
   - type: ShowHealthIcons
     damageContainers:
     - Biological
-    - BiologicalMetaphysical # DeltaV - Kitsune
   - type: Tag
     tags:
     - HudMedical
