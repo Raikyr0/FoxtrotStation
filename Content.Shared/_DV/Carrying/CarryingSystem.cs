@@ -165,7 +165,7 @@ namespace Content.Server.Carrying
             // Floofstation - function body reviewed
             Predicate<TransformComponent> isChildOfCarrier = null!; // C# doesn't have local functions eugh
             isChildOfCarrier = (childXForm) => childXForm.ParentUid == component.Carrier
-                             || (childXForm.ParentUid is { Valid: true } parent && isChildOfCarrier(Transform(parent)));
+                             || (childXForm.ParentUid is {Valid: true} parent && isChildOfCarrier(Transform(parent)));
 
             if (args.Target == null // Allow self-interacts
                 || isChildOfCarrier(Transform(args.Target.Value))) // Allow interacting with everything on the carriee
@@ -174,7 +174,7 @@ namespace Content.Server.Carrying
             // Also check if the interacted-with entity is on the carrier and cancel the event if not
             var targetParent = Transform(args.Target.Value).ParentUid;
             if (args.Target.Value != component.Carrier && targetParent != component.Carrier && targetParent != uid)
-                args.Cancelled = true;
+                args.Cancel();
         }
 
         /// <summary>
@@ -189,7 +189,10 @@ namespace Content.Server.Carrying
             // Check if the victim is in any way incapacitated, and if not make an escape attempt.
             // Escape time scales with the inverse of a mass contest. Being lighter makes escape harder.
             if (_actionBlockerSystem.CanInteract(uid, component.Carrier))
-                _escapeInventorySystem.AttemptEscape(uid, component.Carrier, escape, _contests.MassContest(uid, component.Carrier, false, 2f));
+            {
+                var disadvantage = _contests.MassContest(component.Carrier, uid, false, 2f);
+                _escapeInventorySystem.AttemptEscape(uid, component.Carrier, escape, disadvantage);
+            }
         }
 
         private void OnMoveAttempt(EntityUid uid, BeingCarriedComponent component, UpdateCanMoveEvent args)
@@ -234,7 +237,8 @@ namespace Content.Server.Carrying
             Carry(args.Args.User, uid);
             args.Handled = true;
         }
-        private void StartCarryDoAfter(EntityUid carrier, EntityUid carried, CarriableComponent component)
+
+        public void StartCarryDoAfter(EntityUid carrier, EntityUid carried, CarriableComponent component)
         {
             if (!TryComp<PhysicsComponent>(carrier, out var carrierPhysics)
                 || !TryComp<PhysicsComponent>(carried, out var carriedPhysics)
@@ -275,7 +279,8 @@ namespace Content.Server.Carrying
             _transform.SetCoordinates(carried, Transform(carrier).Coordinates);
             _transform.SetParent(carried, carrier);
             _virtualItemSystem.TrySpawnVirtualItemInHand(carried, carrier);
-            _virtualItemSystem.TrySpawnVirtualItemInHand(carried, carrier);
+            if (TryComp<CarriableComponent>(carried, out var carriableComp) && (carriableComp.FreeHandsRequired > 1)) // Floofstation
+                _virtualItemSystem.TrySpawnVirtualItemInHand(carried, carrier);
             var carryingComp = EnsureComp<CarryingComponent>(carrier);
             ApplyCarrySlowdown(carrier, carried);
             var carriedComp = EnsureComp<BeingCarriedComponent>(carried);
