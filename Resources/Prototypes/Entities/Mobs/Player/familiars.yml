@@ -30,7 +30,7 @@
       0: Alive
       50: Dead
   - type: Damageable
-    damageContainer: ManifestedSpirit # Floof - M3739 - Yokai - CorporealSpirit container superseded by ManifestedSpirit
+    damageContainer: CorporealSpirit
     damageModifierSet: CorporealSpirit
   - type: MindContainer
     showExamineInfo: false
