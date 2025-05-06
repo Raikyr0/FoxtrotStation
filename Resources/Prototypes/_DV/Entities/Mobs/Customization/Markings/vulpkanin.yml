@@ -581,29 +581,29 @@
 
 - type: marking
   id: VulpPointsCrestLegs
-  markingCategory: Legs
+  markingCategory: LeftLeg
   bodyPart: LLeg
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_crest-legs
 
 - type: marking
   id: VulpPointsFadeLegs
-  markingCategory: Legs
+  markingCategory: LeftLeg
   bodyPart: LLeg
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_fade-legs
 
 - type: marking
   id: VulpPointsSharpLegs
-  markingCategory: Legs
+  markingCategory: LeftLeg
   bodyPart: LLeg
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_sharp-legs
 
 # Arm Markings
