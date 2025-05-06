@@ -618,29 +618,29 @@
 
 - type: marking
   id: VulpPointsCrestArms
-  markingCategory: Arms
+  markingCategory: LeftArm
   bodyPart: LArm
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_crest-arms
 
 - type: marking
   id: VulpPointsFadeArms
-  markingCategory: Arms
+  markingCategory: LeftArm
   bodyPart: LArm
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_fade-arms
 
 - type: marking
   id: VulpPointsSharpArms
-  markingCategory: Arms
+  markingCategory: LeftArm
   bodyPart: LArm
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_sharp-arms
 
 # Hairs
