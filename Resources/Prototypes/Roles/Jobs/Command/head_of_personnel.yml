@@ -3,6 +3,7 @@
   name: job-name-hop
   description: job-description-hop
   playTimeTracker: JobHeadOfPersonnel
+  whitelisted: true
   requirements:
     - !type:CharacterDepartmentTimeRequirement # DeltaV - Civilian dept time requirement
       department: Civilian
@@ -28,7 +29,7 @@
   - Janitor
   - Theatre
   - Kitchen
-#  - Chapel
+  - Chapel
   - Hydroponics
   - External
   - Cryogenics
@@ -36,17 +37,18 @@
   # As of 15/03/23 they can't do that so here's MOST of the rest of the access levels.
   # Head level access that isn't their own was deliberately left out, get AA from the captain instead.
   # Delta V - fuck all of this HoP is a service role
-#  - Chemistry
-#  - Engineering
-#  - Research
-#  - Detective
-#  - Salvage
-#  - Security # NoooOoOo!! My HoPcurity!1
-#  - Brig
+  # Foxtrot - Respect the OG. HoP deserves SS13 glory. They're not just a service role. They're second in command.
+  - Chemistry
+  - Engineering
+  - Research
+  - Detective
+  - Salvage
+  - Security 
+  - Brig
   - Lawyer
   - Cargo
-#  - Atmospherics
-#  - Medical
+  - Atmospherics
+  - Medical
   - Boxer # DeltaV - Add Boxer access
   - Clown # DeltaV - Add Clown access
   - Library # DeltaV - Add Library access
@@ -54,6 +56,15 @@
   - Musician # DeltaV - Add Musician access
   - Reporter # DeltaV - Add Reporter access
   - Zookeeper # DeltaV - Add Zookeeper access
+  - Mantis # Foxtrot - Add Mantis access
+  - Clerk # Foxtrot - Add Clerk access
+  - Corpsman # Foxtrot - Add Corpsman access
+  - Paramedic # Foxtrot - Add Paramedic access
+  - Orders # Foxtrot - Add Orders access
+  - Justice # Foxtrot - Add Justice access
+  - Psychologist # Foxtrot - Add Psychologist access
+  - Mail # Foxtrot - Add Mail access
+  - Prosecutor # Foxtrot - Add Prosecutor access
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]

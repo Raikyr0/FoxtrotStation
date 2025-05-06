@@ -5,10 +5,11 @@
     Dragon: 1
     Revenant: 1
 
-- type: ninjaHackingThreat
-  id: Dragon
-  announcement: terror-dragon
-  rule: DragonSpawn
+# Foxtrot - Dragons are disabled
+#- type: ninjaHackingThreat
+#  id: Dragon
+#  announcement: terror-dragon
+#  rule: DragonSpawn
 
 #- type: ninjaHackingThreat
 #  id: Revenant
