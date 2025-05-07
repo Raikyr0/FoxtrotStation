@@ -6,6 +6,6 @@
 - type: guideEntry
   id: Kitsune
   name: species-name-kitsune
-  text: "/ServerInfo/Guidebook/Mobs/_DV/Kitsune.xml"
+  text: "/ServerInfo/Guidebook/Mobs/DeltaV/Kitsune.xml"
 
 
