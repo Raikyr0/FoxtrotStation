@@ -5,7 +5,7 @@
   id: VulpEar
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp
@@ -16,7 +16,7 @@
   id: VulpEarFade
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp
@@ -27,7 +27,7 @@
   id: VulpEarSharp
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp
@@ -38,7 +38,7 @@
   id: VulpEarJackal
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: jackal
@@ -49,7 +49,7 @@
   id: VulpEarTerrier
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: terrier
@@ -60,7 +60,7 @@
   id: VulpEarWolf
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: wolf
@@ -71,7 +71,7 @@
   id: VulpEarFennec
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin, Felinid, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: fennec
@@ -82,7 +82,7 @@
   id: VulpEarFox
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin, Felinid, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: fox
@@ -93,7 +93,7 @@
   id: VulpEarOtie
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: otie
@@ -104,7 +104,7 @@
   id: VulpEarTajaran
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: msai
@@ -115,7 +115,7 @@
   id: VulpEarShock
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: shock
@@ -124,7 +124,7 @@
   id: VulpEarCoyote
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: coyote
@@ -133,7 +133,7 @@
   id: VulpEarDalmatian
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: dalmatian
@@ -143,7 +143,7 @@
   id: VulpSnoutAlt
   bodyPart: Snout
   markingCategory: Snout
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: muzzle_alt
@@ -154,7 +154,7 @@
   id: VulpSnout
   bodyPart: Snout
   markingCategory: Snout
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: muzzle
@@ -165,7 +165,7 @@
   id: VulpSnoutSharp
   bodyPart: Snout
   markingCategory: Snout
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: muzzle_sharp
@@ -176,7 +176,7 @@
   id: VulpSnoutFade
   bodyPart: Snout
   markingCategory: Snout
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: muzzle_fade
@@ -187,7 +187,7 @@
   id: VulpSnoutNose
   bodyPart: Snout
   markingCategory: Snout
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: nose
@@ -196,7 +196,7 @@
   id: VulpSnoutMask
   bodyPart: Snout
   markingCategory: Snout
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: mask
@@ -207,7 +207,7 @@
   id: VulpSnoutVulpine
   bodyPart: Snout
   markingCategory: Snout
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: vulpine
@@ -218,7 +218,7 @@
   id: VulpSnoutSwift
   bodyPart: Snout
   markingCategory: Snout
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: vulpine-lines
@@ -227,7 +227,7 @@
   id: VulpSnoutBlaze
   bodyPart: Snout
   markingCategory: Snout
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: blaze
@@ -236,7 +236,7 @@
   id: VulpSnoutPatch
   bodyPart: Snout
   markingCategory: Snout
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: patch
@@ -246,7 +246,7 @@
   id: VulpHeadTiger
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: tiger_head
@@ -255,7 +255,7 @@
   id: VulpHeadTigerFace
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: tiger_face
@@ -264,7 +264,7 @@
   id: VulpHeadSlash
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: slash
@@ -274,7 +274,7 @@
   id: VulpTail
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp
@@ -282,21 +282,10 @@
       state: vulp-fade
 
 - type: marking
-  id: VulpTailTip
+  id: VulpTailAnimated
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid, Kitsune]
-  sprites:
-    - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: vulp
-    - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: vulp-tip
-
-- type: marking
-  id: VulpTailWag
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid, Kitsune]
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag
@@ -304,10 +293,21 @@
       state: vulp_wag-tip #fade
 
 - type: marking
-  id: VulpTailWagTip
+  id: VulpTailTip
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
+  sprites:
+    - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp
+    - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp-tip
+
+- type: marking
+  id: VulpTailTipAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag
@@ -318,7 +318,7 @@
   id: VulpTailAlt
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_alt
@@ -329,7 +329,7 @@
   id: VulpTailAltTip
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_alt
@@ -340,7 +340,7 @@
   id: VulpTailLong
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: long
@@ -351,7 +351,7 @@
   id: VulpTailFox
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox
@@ -359,21 +359,10 @@
       state: fox-fade
 
 - type: marking
-  id: VulpTailFoxTip
+  id: VulpTailFoxAnimated
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid, Kitsune]
-  sprites:
-    - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: fox
-    - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: fox-tip
-
-- type: marking
-  id: VulpTailFoxWag
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid, Kitsune]
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox_wag
@@ -381,10 +370,21 @@
       state: fox_wag-fade
 
 - type: marking
-  id: VulpTailFoxWagTip
+  id: VulpTailFoxTip
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
+  sprites:
+    - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox
+    - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox-tip
+
+- type: marking
+  id: VulpTailFoxTipAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox_wag
@@ -395,16 +395,16 @@
   id: VulpTailBushy
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: bushfluff
 
 - type: marking
-  id: VulpTailBushyWag
+  id: VulpTailBushyAnimated
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: bushfluff_wag
@@ -413,25 +413,34 @@
   id: VulpTailCoyote
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: coyote
 
 - type: marking
-  id: VulpTailCoyoteWag
+  id: VulpTailCoyoteAnimated
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: coyote_wag
 
 - type: marking
-  id: VulpTailCorgiWag
+  id: VulpTailCorgi
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
+  sprites:
+    - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: corgi
+
+- type: marking
+  id: VulpTailCorgiAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: corgi_wag
@@ -440,7 +449,7 @@
   id: VulpTailHusky
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: husky-inner
@@ -451,7 +460,7 @@
   id: VulpTailHuskyAlt
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: husky
@@ -460,7 +469,7 @@
   id: VulpTailFox2
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox2
@@ -469,7 +478,7 @@
   id: VulpTailFox3
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox3
@@ -480,7 +489,7 @@
   id: VulpTailFennec
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid, Kitsune]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fennec
@@ -489,7 +498,7 @@
   id: VulpTailOtie
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: otie
@@ -498,16 +507,25 @@
   id: VulpTailFluffy
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Felinid]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fluffy
 
 - type: marking
-  id: VulpTailDalmatianWag
+  id: VulpTailDalmatian
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, HumanHybrid, IPC, Canid] # The Den - Add Canid
+  sprites:
+    - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: dalmatian
+
+- type: marking
+  id: VulpTailDalmatianAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: dalmatian_wag
@@ -517,7 +535,7 @@
   id: VulpBellyCrest
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson, Human]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: belly_crest
@@ -526,7 +544,7 @@
   id: VulpBellyFull
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson, Human]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: belly_full
@@ -535,7 +553,7 @@
   id: VulpBellyFox
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson, Human]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: belly_fox
@@ -546,7 +564,7 @@
 #   id: VulpBodyPointsCrest
 #   markingCategory: Overlay
 #   bodyPart: RFoot
-#   speciesRestriction: [Vulpkanin]
+#   speciesRestriction: [Vulpkanin, SlimePerson]
 #   sprites:
 #     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
 #       state: points_crest
@@ -555,7 +573,7 @@
 #   id: VulpBodyPointsFade
 #   markingCategory: Overlay
 #   bodyPart: RFoot
-#   speciesRestriction: [Vulpkanin]
+#   speciesRestriction: [Vulpkanin, SlimePerson]
 #   sprites:
 #     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
 #       state: points_fade
@@ -564,7 +582,7 @@
 #   id: VulpBodyPointsSharp
 #   markingCategory: Overlay
 #   bodyPart: RFoot
-#   speciesRestriction: [Vulpkanin]
+#   speciesRestriction: [Vulpkanin, SlimePerson]
 #   sprites:
 #     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
 #       state: points_sharp
@@ -572,9 +590,9 @@
 # Leg Markings
 - type: marking
   id: VulpPointsFeet
-  markingCategory: Overlay
+  markingCategory: RightFoot
   bodyPart: RFoot
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson, Human]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_feet
@@ -583,7 +601,7 @@
   id: VulpPointsCrestLegs
   markingCategory: LeftLeg
   bodyPart: LLeg
-  speciesRestriction: [Vulpkanin, SlimePerson]
+  speciesRestriction: [Vulpkanin, SlimePerson, Human]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_crest-legs
@@ -592,7 +610,7 @@
   id: VulpPointsFadeLegs
   markingCategory: LeftLeg
   bodyPart: LLeg
-  speciesRestriction: [Vulpkanin, SlimePerson]
+  speciesRestriction: [Vulpkanin, SlimePerson, Human]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_fade-legs
@@ -601,7 +619,7 @@
   id: VulpPointsSharpLegs
   markingCategory: LeftLeg
   bodyPart: LLeg
-  speciesRestriction: [Vulpkanin, SlimePerson]
+  speciesRestriction: [Vulpkanin, SlimePerson, Human]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_sharp-legs
@@ -609,9 +627,9 @@
 # Arm Markings
 - type: marking
   id: VulpPointsHands
-  markingCategory: Overlay
+  markingCategory: RightHand
   bodyPart: RHand
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson, Human]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_hands
@@ -620,7 +638,7 @@
   id: VulpPointsCrestArms
   markingCategory: LeftArm
   bodyPart: LArm
-  speciesRestriction: [Vulpkanin, SlimePerson]
+  speciesRestriction: [Vulpkanin, SlimePerson, Human]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_crest-arms
@@ -629,7 +647,7 @@
   id: VulpPointsFadeArms
   markingCategory: LeftArm
   bodyPart: LArm
-  speciesRestriction: [Vulpkanin, SlimePerson]
+  speciesRestriction: [Vulpkanin, SlimePerson, Human]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_fade-arms
@@ -638,7 +656,7 @@
   id: VulpPointsSharpArms
   markingCategory: LeftArm
   bodyPart: LArm
-  speciesRestriction: [Vulpkanin, SlimePerson]
+  speciesRestriction: [Vulpkanin, SlimePerson, Human]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: points_sharp-arms
@@ -647,7 +665,7 @@
 - type: marking
   id: VulpHairAdhara
   bodyPart: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   markingCategory: Hair
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
@@ -656,7 +674,7 @@
 - type: marking
   id: VulpHairAnita
   bodyPart: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   markingCategory: Hair
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
@@ -665,7 +683,7 @@
 - type: marking
   id: VulpHairApollo
   bodyPart: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   markingCategory: Hair
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
@@ -674,7 +692,7 @@
 - type: marking
   id: VulpHairBelle
   bodyPart: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   markingCategory: Hair
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
@@ -684,7 +702,7 @@
   id: VulpHairBraided
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: braided
@@ -693,7 +711,7 @@
   id: VulpHairBun
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: bun
@@ -702,7 +720,7 @@
   id: VulpHairCleanCut
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: clean_cut
@@ -711,7 +729,7 @@
   id: VulpHairCurl
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: curl
@@ -720,7 +738,7 @@
   id: VulpHairHawk
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: hawk
@@ -729,7 +747,7 @@
   id: VulpHairJagged
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: jagged
@@ -738,7 +756,7 @@
   id: VulpHairJeremy
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: jeremy
@@ -747,7 +765,7 @@
   id: VulpHairKajam
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: kajam
@@ -756,7 +774,7 @@
   id: VulpHairKeid
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: keid
@@ -765,7 +783,7 @@
   id: VulpHairKleeia
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: kleeia
@@ -774,7 +792,7 @@
   id: VulpHairMizar
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: mizar
@@ -783,7 +801,7 @@
   id: VulpHairPunkBraided
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: punkbraided
@@ -792,7 +810,7 @@
   id: VulpHairRaine
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: raine
@@ -801,7 +819,7 @@
   id: VulpHairRough
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: rough
@@ -810,7 +828,7 @@
   id: VulpHairShort
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: short
@@ -819,7 +837,7 @@
   id: VulpHairShort2
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: short2
@@ -828,7 +846,7 @@
   id: VulpHairSpike
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/hair.rsi
       state: spike
@@ -838,7 +856,7 @@
   id: VulpFacialHairRuff
   bodyPart: FacialHair
   markingCategory: FacialHair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/facial_hair.rsi
       state: ruff
@@ -847,7 +865,7 @@
   id: VulpFacialHairElder
   bodyPart: FacialHair
   markingCategory: FacialHair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/facial_hair.rsi
       state: elder
@@ -856,7 +874,7 @@
   id: VulpFacialHairElderChin
   bodyPart: FacialHair
   markingCategory: FacialHair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/facial_hair.rsi
       state: elder_chin
@@ -865,7 +883,7 @@
   id: VulpFacialHairKita
   bodyPart: FacialHair
   markingCategory: FacialHair
-  speciesRestriction: [Vulpkanin]
+  speciesRestriction: [Vulpkanin, SlimePerson]
   sprites:
     - sprite: DeltaV/Mobs/Customization/Vulpkanin/facial_hair.rsi
       state: kita

@@ -94,8 +94,8 @@
   parent: BaseCrewSpeciesPhrase
   text: species-name-arachne
 
-- type: quickPhrase
-  id: SpeciesResomiPhrase
-  parent: BaseCrewSpeciesPhrase
-  text: species-name-resomi
-# Floof - Changes end
+# - type: quickPhrase
+  # id: SpeciesResomiPhrase
+  # parent: BaseCrewSpeciesPhrase
+  # text: species-name-resomi
+# # Floof - Changes end
