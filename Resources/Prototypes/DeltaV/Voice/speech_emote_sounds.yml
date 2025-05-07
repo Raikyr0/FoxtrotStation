@@ -308,10 +308,10 @@
       collection: KitsuneSqueal
     Growl:
       collection: KitsuneGrowl
-    Gasp:
-      collection: MaleGasp
-    DefaultDeathgasp:
-      collection: MaleDeathGasp
+    # Gasp:
+      # collection: MaleGasp
+    # DefaultDeathgasp:
+      # collection: MaleDeathGasp
 
 - type: emoteSounds
   id: FemaleKitsune
@@ -344,7 +344,7 @@
       collection: KitsuneSqueal
     Growl:
       collection: KitsuneGrowl
-    Gasp:
-      collection: FemaleGasp
-    DefaultDeathgasp:
-      collection: FemaleDeathGasp
+    # Gasp:
+      # collection: FemaleGasp
+    # DefaultDeathgasp:
+      # collection: FemaleDeathGasp
