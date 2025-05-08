@@ -124,7 +124,7 @@
     duration: null
   - type: SpaceSpawnRule
   - type: AntagSpawner
-     prototype: MobDragon
+    prototype: MobDragon
   - type: DragonRule
   - type: AntagObjectives
     objectives:
