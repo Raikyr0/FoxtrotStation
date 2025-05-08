@@ -2,7 +2,7 @@
   id: Tortuga
   mapName: 'Tortuga'
   mapPath: /Maps/TheDen/tortuga.yml
-  minPlayers: 20
+  minPlayers: 10
   stations:
     Tortuga:
       stationProto: StandardNanotrasenStation
