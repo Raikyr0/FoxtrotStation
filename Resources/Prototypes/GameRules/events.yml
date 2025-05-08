@@ -535,7 +535,7 @@
 # Foxtrot - Operatives are anti-RP. They will always be disabled.
 - type: entity
   id: LoneOpsSpawn
-  parent: BaseGameRuleSecurityRequirement # Floof - changed parent
+  parent: BaseNukeopsRule # Floof - changed parent
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
