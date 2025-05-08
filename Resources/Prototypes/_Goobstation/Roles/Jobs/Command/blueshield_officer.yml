@@ -22,11 +22,7 @@
   supervisors: job-supervisors-centcom
   canBeAntag: false
   accessGroups:
-  - BasicAllAccess
-  access:
-  - BlueshieldOfficer
-  - CentralCommand
-  - Corpsman
+  - AllAccess
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
