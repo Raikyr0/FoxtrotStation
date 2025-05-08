@@ -111,35 +111,19 @@
     prototype: MobSkeletonCloset
 
 # Foxtrot - Dragons don't encourage RP. Disabled until they are reworked.
-#- type: entity
-#  parent: BaseGameRule
-#  id: DragonSpawn
-#  categories: [ HideSpawnMenu ]
-# components:
- # - type: StationEvent
- #   weight: 6.5
- #  earliestStart: 40
- #  reoccurrenceDelay: 40
- #   minimumPlayers: 30
- #   duration: null
- #  - type: SpaceSpawnRule
- #    spawnDistance: 0
- #  - type: AntagSpawner
- #    prototype: MobDragon
- #  - type: DragonRule
- #  - type: AntagObjectives
- #   objectives:
- #  - CarpRiftsObjective
- #   - DragonSurviveObjective
-#  - type: AntagSelection
- #   agentName: dragon-round-end-agent-name
- #   definitions:
- #   - spawnerPrototype: SpawnPointGhostDragon
-  #    min: 1
-  #    max: 1
-  #    pickPlayer: false
-  #    mindRoles:
- #     - MindRoleDragon
+- type: entity
+  parent: BaseGameRuleSecurityRequirement # Floof - changed parent
+  id: DragonSpawn
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StationEvent
+    weight: 6 # Floof - changed from 6.5
+    duration: 1
+    earliestStart: 300 # Floof
+    reoccurrenceDelay: 60
+    minimumPlayers: 400 # Floof
+  - type: RandomSpawnRule
+    prototype: SpawnPointGhostDragon
 
 - type: entity
   parent: BaseGameRule
