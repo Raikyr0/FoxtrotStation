@@ -565,8 +565,7 @@
         factions:
         - Syndicate
       mindComponents:
-      - type: NukeopsRole
-        prototype: Nukeops
+      - MindRoleNukeops
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -591,8 +590,7 @@
         components:
         - AntagImmune
       mindComponents:
-      - type: TraitorRole
-        prototype: TraitorSleeper
+      - MindRoleTraitorSleeper
 
 - type: entity
   id: MassHallucinations
