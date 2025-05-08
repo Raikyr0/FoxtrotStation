@@ -112,7 +112,7 @@
 
 # Foxtrot - Dragons don't encourage RP. Disabled until they are reworked.
 - type: entity
-  parent: BaseGameRuleSecurityRequirement # Floof - changed parent
+  parent: BaseGameRule # Floof - changed parent
   id: DragonSpawn
   categories: [ HideSpawnMenu ]
   components:
