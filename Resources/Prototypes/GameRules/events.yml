@@ -550,20 +550,20 @@
 
 # Foxtrot - Operatives are anti-RP. They will always be disabled.
 - type: entity
-  categories: [ HideSpawnMenu ]
-  parent: BaseNukeopsRule
   id: LoneOpsSpawn
-   components:
+  parent: BaseGameRuleSecurityRequirement # Floof - changed parent
+  categories: [ HideSpawnMenu ]
+  components:
   - type: StationEvent
-    earliestStart: 9999
-   weight: 5.5
-   minimumPlayers: 500
+    earliestStart: 600 # Floof - Changed from 35
+    weight: 3 # Floof - Changed from 5.5
+    minimumPlayers: 300 # Floof - changed from 20
     duration: 1
-  - type: RuleGrids
   - type: LoadMapRule
     preloadedGrid: ShuttleStriker
   - type: NukeopsRule
     roundEndBehavior: Nothing
+  - type: AntagLoadProfileRule # Floofstation
   - type: AntagSelection
     definitions:
     - spawnerPrototype: SpawnPointLoneNukeOperative
@@ -580,8 +580,9 @@
       - type: NpcFactionMember
         factions:
         - Syndicate
-      mindRoles:
-      - MindRoleNukeops
+      mindComponents:
+      - type: NukeopsRole
+        prototype: Nukeops
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -605,8 +606,9 @@
       blacklist:
         components:
         - AntagImmune
-      mindRoles:
-      - MindRoleTraitorSleeper
+      mindComponents:
+      - type: TraitorRole
+        prototype: TraitorSleeper
 
 - type: entity
   id: MassHallucinations
