@@ -494,10 +494,11 @@ trait-description-Azaziba =
     A language of Moghes consisting of a combination of spoken word and gesticulation.
     While waning since Moghes entered the galactic stage - it enjoys popular use by Unathi that never fell to the Hegemony's cultural dominance.
 
-trait-name-BionicArm = Bionic Arm
+# Foxtrot, added High-Grade descriptor and modified description
+trait-name-BionicArm = High-Grade Bionic Arm
 trait-description-BionicArm =
     One or more of your limbs have been replaced with an expensive, state of the art bionic. It could be either one made of highly realistic synthflesh,
-    or a more obvious metal limb. This limb provides enhanced strength to its user, allowing one to pry open barriers with their bare hands.
+    or a more obvious metal limb. This limb provides enhanced strength to its user, allowing one to pry open even powered barriers with their bare hands.
 
 trait-name-PlateletFactories = Platelet Factories
 trait-description-PlateletFactories =

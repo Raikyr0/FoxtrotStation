@@ -552,13 +552,17 @@
 - type: trait
   id: BionicArm
   category: Physical
-  points: -6
+  points: -9 # Foxtrot, increased cost from -6 due to the power of Jaws
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
       jobs:
         - Prisoner # Bionics should be "Confiscated" from long term prisoners.
         - Gladiator
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - LesserBionicArm # Foxtrot
   functions:
     - !type:TraitCyberneticLimbReplacement
       removeBodyPart: Arm

@@ -1,0 +1,23 @@
+- type: entity
+  parent: LeftArmCybernetic
+  id: CrowbarLeftArm
+  name: C.R.W left arm
+  description: A cybernetic left arm with the ability to pry unpowered doors open.
+  components:
+  - type: BodyPart
+    onAdd:
+    - type: Prying
+    - type: UseDelay # For insta prying
+      delay: 1
+      
+- type: entity
+  parent: RightArmCybernetic
+  id: CrowbarRightArm
+  name: C.R.W right arm
+  description: A cybernetic right arm with the ability to pry unpowered doors open.
+  components:
+  - type: BodyPart
+    onAdd:
+    - type: Prying
+    - type: UseDelay # For insta prying
+      delay: 1
