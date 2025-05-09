@@ -111,35 +111,34 @@
     prototype: MobSkeletonCloset
 
 # Foxtrot - Dragons don't encourage RP. Disabled until they are reworked.
-#- type: entity
-#  parent: BaseGameRule
-#  id: DragonSpawn
-#  categories: [ HideSpawnMenu ]
-# components:
- # - type: StationEvent
- #   weight: 6.5
- #  earliestStart: 40
- #  reoccurrenceDelay: 40
- #   minimumPlayers: 30
- #   duration: null
- #  - type: SpaceSpawnRule
- #    spawnDistance: 0
- #  - type: AntagSpawner
- #    prototype: MobDragon
- #  - type: DragonRule
- #  - type: AntagObjectives
- #   objectives:
- #  - CarpRiftsObjective
- #   - DragonSurviveObjective
-#  - type: AntagSelection
- #   agentName: dragon-round-end-agent-name
- #   definitions:
- #   - spawnerPrototype: SpawnPointGhostDragon
-  #    min: 1
-  #    max: 1
-  #    pickPlayer: false
-  #    mindRoles:
- #     - MindRoleDragon
+- type: entity
+  parent: BaseGameRule
+  id: DragonSpawn
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StationEvent
+    weight: 6.5
+    earliestStart: 400
+    reoccurrenceDelay: 40
+    minimumPlayers: 300
+    duration: null
+  - type: SpaceSpawnRule
+  - type: AntagSpawner
+    prototype: MobDragon
+  - type: DragonRule
+  - type: AntagObjectives
+    objectives:
+    - CarpRiftsObjective
+    - DragonSurviveObjective
+  - type: AntagSelection
+    agentName: dragon-round-end-agent-name
+    definitions:
+    - spawnerPrototype: SpawnPointGhostDragon
+      min: 1
+      max: 1
+      pickPlayer: false
+      mindRoles:
+      - MindRoleDragon
 
 - type: entity
   parent: BaseGameRule
@@ -549,39 +548,39 @@
       - MindRoleInitialInfected
 
 # Foxtrot - Operatives are anti-RP. They will always be disabled.
-#- type: entity
- # categories: [ HideSpawnMenu ]
- # parent: BaseNukeopsRule
- # id: LoneOpsSpawn
-  #components:
- # - type: StationEvent
-  #  earliestStart: 35
-  # weight: 5.5
-  # minimumPlayers: 20
-  #  duration: 1
- # - type: RuleGrids
- # - type: LoadMapRule
-  #  preloadedGrid: ShuttleStriker
- # - type: NukeopsRule
-  #  roundEndBehavior: Nothing
- # - type: AntagSelection
-  #  definitions:
-  #  - spawnerPrototype: SpawnPointLoneNukeOperative
-   #   min: 1
-    #  max: 1
-   #   pickPlayer: false
-     # startingGear: SyndicateLoneOperativeGearFull
-     # components:
-    #  - type: NukeOperative
-    #  - type: RandomMetadata
-     #   nameSegments:
-     #   - SyndicateNamesPrefix
-      #  - SyndicateNamesNormal
-     # - type: NpcFactionMember
-      #  factions:
-      #  - Syndicate
-     # mindRoles:
-     # - MindRoleNukeops
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: BaseNukeopsRule
+  id: LoneOpsSpawn
+  components:
+  - type: StationEvent
+    earliestStart: 300
+    weight: 5.5
+    minimumPlayers: 500
+    duration: 1
+  - type: RuleGrids
+  - type: LoadMapRule
+    preloadedGrid: ShuttleStriker
+  - type: NukeopsRule
+    roundEndBehavior: Nothing
+  - type: AntagSelection
+    definitions:
+    - spawnerPrototype: SpawnPointLoneNukeOperative
+      min: 1
+      max: 1
+      pickPlayer: false
+      startingGear: SyndicateLoneOperativeGearFull
+      components:
+      - type: NukeOperative
+      - type: RandomMetadata
+        nameSegments:
+        - SyndicateNamesPrefix
+        - SyndicateNamesNormal
+      - type: NpcFactionMember
+        factions:
+        - Syndicate
+      mindRoles:
+      - MindRoleNukeops
 
 - type: entity
   categories: [ HideSpawnMenu ]
