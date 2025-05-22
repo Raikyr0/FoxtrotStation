@@ -17,12 +17,13 @@
   - Bartender
   - Botanist
   - Boxer
-  # - Chaplain # DeltaV - Move Chaplain into Epistemics
+  - Chaplain # Foxtrot - Move Chaplain back into service
   - Chef
   - Clown
   - HeadOfPersonnel
   - Janitor
   # - Lawyer # DeltaV - Move Lawyer into Justice
+  - Librarian # Foxtrot - Move Librarian back into service
   - Mime
   - Musician
   - Passenger
@@ -121,9 +122,9 @@
   - SeniorResearcher
   - Scientist
   - ResearchAssistant
-  - Chaplain # DeltaV - Move Chaplain into Epistemics
+ # - Chaplain # Foxtrot - Move Chaplain back into service
   - ForensicMantis # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
-  - Librarian
+ # - Librarian - # Foxtrot - Move Librarian back into service
   - Roboticist
 
 - type: department
