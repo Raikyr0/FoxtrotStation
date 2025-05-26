@@ -453,7 +453,7 @@
         - Talons
         - Claws
   functions:
-    - !type:TraitModifyUned
+    - !type:TraitModifyUnarmed
       soundHit:
         collection: Punch
       animation: WeaponArcFist
