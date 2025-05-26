@@ -156,7 +156,7 @@
 - type: loadout
   id: LoadoutMedicalRestrictedGearEyesHudMedical
   category: JobsMedicalAUncategorized
-  cost: 2
+  cost: 1
   exclusive: true
   requirements:
     - !type:CharacterTraitRequirement
@@ -175,7 +175,7 @@
 - type: loadout
   id: LoadoutMedicalRestrictedGearEyepatchHudMedical
   category: JobsMedicalAUncategorized
-  cost: 2
+  cost: 1
   exclusive: true
   requirements:
     - !type:CharacterTraitRequirement
@@ -194,7 +194,7 @@
 - type: loadout
   id: LoadoutMedicalRestrictedGearHudMedicalPrescription
   category: JobsMedicalAUncategorized
-  cost: 2
+  cost: 1
   exclusive: true
   requirements:
     - !type:CharacterTraitRequirement
@@ -432,7 +432,7 @@
 - type: loadout
   id: LoadoutMedicalRestrictedGearBeltMedicalFilled
   category: JobsMedicalMedicalDoctor
-  cost: 4
+  cost: 3
   requirements:
     - !type:CharacterTraitRequirement
       traits:
