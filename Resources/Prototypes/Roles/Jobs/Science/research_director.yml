@@ -5,14 +5,11 @@
   playTimeTracker: JobResearchDirector
   requirements:
     - !type:CharacterPlaytimeRequirement
-      tracker: JobChaplain
-      min: 14400 # The Den - 4 hour
-    - !type:CharacterPlaytimeRequirement
       tracker: JobForensicMantis
       min: 14400 # The Den - 4 hour
     - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics # DeltaV - Epistemics Department replacing Science
-      min: 28800 # The Den - 8 hour
+      department: Epistemics # Foxtrot - Epistemics is back to Science, formally called R&D
+      min: 43200 # Foxtrot - 12 hour
     - !type:CharacterLogicOrRequirement
       requirements:
         - !type:CharacterSpeciesRequirement
