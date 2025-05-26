@@ -108,6 +108,11 @@
     Undershirt:
       points: 1
       required: false
+    # Foxtrot start
+    Overlay:
+      points: 1
+      required: false
+    # Foxtrot end
 
 - type: humanoidBaseSprite
   id: MobRodentiaHead

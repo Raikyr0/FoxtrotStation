@@ -96,6 +96,20 @@
     HeadSide:
       points: 6
       required: false
+    # Foxtrot start
+    Face:
+      points: 1
+      required: false
+    Head:
+      points: 1
+      required: false
+    Chest:
+      points: 1
+      required: false
+    Overlay:
+      points: 1
+      required: false
+    # Foxtrot end
 
 - type: humanoidBaseSprite
   id: MobVulpkaninHead
