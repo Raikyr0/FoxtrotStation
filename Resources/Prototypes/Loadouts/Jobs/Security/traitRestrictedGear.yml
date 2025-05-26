@@ -20,7 +20,7 @@
 - type: loadout
   id: LoadoutSecurityRestrictedGearOuterArmorPlateCarrier
   category: JobsSecurityAUncategorized
-  cost: 7
+  cost: 5
   exclusive: true
   requirements:
     - !type:CharacterTraitRequirement
@@ -38,7 +38,7 @@
 - type: loadout
   id: LoadoutSecurityRestrictedGearOuterArmorDuraVest
   category: JobsSecurityAUncategorized
-  cost: 7
+  cost: 5
   exclusive: true
   requirements:
     - !type:CharacterTraitRequirement
@@ -56,7 +56,7 @@
 - type: loadout
   id: LoadoutSecurityRestrictedGearOuterArmorBasic
   category: JobsSecurityAUncategorized
-  cost: 7
+  cost: 5
   exclusive: true
   requirements:
     - !type:CharacterTraitRequirement
@@ -74,7 +74,7 @@
 - type: loadout
   id: LoadoutSecurityRestrictedGearOuterArmorSlim
   category: JobsSecurityAUncategorized
-  cost: 7
+  cost: 5
   exclusive: true
   requirements:
     - !type:CharacterTraitRequirement
