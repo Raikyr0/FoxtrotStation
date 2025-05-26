@@ -500,7 +500,7 @@
             - NaturalWeaponRemoval
             - MartialArtist
   functions:
-    - !type:TraitModifyUned
+    - !type:TraitModifyUnarmed
       flatDamageIncrease:
         types:
           Blunt: 2
