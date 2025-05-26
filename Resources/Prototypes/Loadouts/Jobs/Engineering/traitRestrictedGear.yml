@@ -19,86 +19,6 @@
     - ClothingEyesGlassesMeson
 
 ## Tools
-# Wirecutter
-- type: loadout
-  id: LoadoutEngineeringRestrictedGearEquipmentWirecutter
-  category: JobsEngineeringAAUncategorized
-  cost: 1
-  requirements:
-    - !type:CharacterTraitRequirement
-      traits:
-        - RestrictedGear
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Engineering
-  items:
-    - Wirecutter
-
-# Screwdriver
-- type: loadout
-  id: LoadoutEngineeringRestrictedGearEquipmentScrewdriver
-  category: JobsEngineeringAAUncategorized
-  cost: 1
-  requirements:
-    - !type:CharacterTraitRequirement
-      traits:
-        - RestrictedGear
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Engineering
-  items:
-    - Screwdriver
-
-# Wrench
-- type: loadout
-  id: LoadoutEngineeringRestrictedGearEquipmentWrench
-  category: JobsEngineeringAAUncategorized
-  cost: 1
-  requirements:
-    - !type:CharacterTraitRequirement
-      traits:
-        - RestrictedGear
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Engineering
-  items:
-    - Wrench
-
-# White Crowbar
-- type: loadout
-  id: LoadoutEngineeringRestrictedGearEquipmentCrowbar
-  category: JobsEngineeringAAUncategorized
-  cost: 1
-  requirements:
-    - !type:CharacterTraitRequirement
-      traits:
-        - RestrictedGear
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Engineering
-  items:
-    - Crowbar
-
-# Multitool
-- type: loadout
-  id: LoadoutEngineeringRestrictedGearEquipmentMultitool
-  category: JobsEngineeringAAUncategorized
-  cost: 2
-  requirements:
-    - !type:CharacterTraitRequirement
-      traits:
-        - RestrictedGear
-    - !type:CharacterDepartmentRequirement
-      inverted: true
-      departments:
-        - Engineering
-  items:
-    - Multitool
-
 # Power Drill
 - type: loadout
   id: LoadoutEngineeringRestrictedGearPowerDrill
@@ -139,7 +59,7 @@
 - type: loadout
   id: LoadoutEngineeringRestrictedGearGlovesCombat
   category: JobsEngineeringAAUncategorized
-  cost: 4
+  cost: 3
   exclusive: true
   requirements:
     - !type:CharacterTraitRequirement
@@ -155,7 +75,7 @@
 - type: loadout
   id: LoadoutEngineeringRestrictedGearGlovesMerc
   category: JobsEngineeringAAUncategorized
-  cost: 4
+  cost: 3
   exclusive: true
   requirements:
     - !type:CharacterTraitRequirement
