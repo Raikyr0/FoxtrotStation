@@ -9,8 +9,6 @@
     - !type:CharacterTraitRequirement
       traits:
         - RestrictedGear
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEyesEngineering
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
