@@ -1,0 +1,8 @@
+# Other
+
+- type: damageModifierSet
+  id: TinyTrait
+  coefficients: # make tiny folks take 10% more brute damage
+    Blunt: 1.1
+    Slash: 1.1
+    Piercing: 1.1
