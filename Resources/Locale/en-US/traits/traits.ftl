@@ -617,38 +617,6 @@ trait-description-BionicLeg =
     One or more of your limbs have been replaced with an expensive, state of the art bionic. It could be either one made of highly realistic synthflesh,
     or a more obvious metal limb. This limb provides enhanced speed to it's user, allowing you to run away from situations faster or get to a place faster.
 
-trait-name-FlareShieldingModule = I.P.C Eye Module: Flare Shielding
-trait-description-FlareShieldingModule =
-   Your eyes have been fitted with a photochromic lens that automatically darkens in response to intense stimuli.
-   This provides immunity from most bright flashes of light, such as those from welding arcs.
-
-trait-name-SecurityEyesModule = I.P.C Eye Module: Sechud
-trait-description-SecurityEyesModule =
-    A module installed in IPCs that work for the security department and similar, this module is considered contraband and may be removed if the unit isn't working for the security department.
-
-trait-name-MedicalEyesModule = I.P.C Eye Module: Medical
-trait-description-MedicalEyesModule =
-    Your eyes have been upgraded to include a built-in Medical Hud, and a Chemical Analysis Hud, allowing you to track the relative health condition of biological organisms, and discern the chemicals in any solution.
-
-trait-name-DiagnosticEyesModule = I.P.C Eye Module: Diagnostics
-trait-description-DiagnosticEyesModule =
-    Your eyes have been upgraded to include a built-in Diagnostic Hud and flare shielding, allowing you to track the condition of synthetic entities, and providing eye protection against welding arcs.
-
-trait-name-OmniEyesModule = I.P.C Eye Module: Premium Model
-trait-description-OmniEyesModule =
-    This upgrade provides the combined benefits of a SecHud, MedHud, and a Diagnostics Module.
-    Note that this module is considered Contraband for anyone not under the employ of station Security personel,
-    and may be disabled by your employer before dispatch to the station.
-
-trait-name-LightAmplificationModule = I.P.C Eye Module: Light Amplification
-trait-description-LightAmplificationModule =
-    Your vision has been enhanced with a light amplifier module, enabling the user to toggle between standard sight and "Night Vision" mode.
-
-trait-name-ThermographicVisionModule = I.P.C Eye Module: Thermographic Scanner
-trait-description-ThermographicVisionModule =
-    Your vision has been enhanced with a Thermographic Scanner. When enabled, it captures a snapshot of the user's surroundings, while highlighting all
-    biological life forms. It can even detect individuals through the walls of a station.
-
 trait-name-Vampirism = Vampirism
 trait-description-Vampirism =
     Your body has evolved to be able to suck blood from beings that contain it and metabolize it into useful compounds.
@@ -678,3 +646,9 @@ trait-name-Bodybuilder = Bodybuilder
 trait-description-Bodybuilder =
     Through extensive training or body modification, you have achieved the pinnacle of physique.
     This trait halves the movement speed penalty when dragging something.
+
+trait-name-RestrictedGear = Restricted Gear
+trait-description-RestrictedGear = 
+    Either through personal ownership or theft, you have access to equipment that isn't particularly standard issue.
+    Note that starting with an item [color=red]doesn't certify its legality[/color]. Conceal it or justify it.
+    (You equip other jobs' items and traits in the loadouts and traits menu) 

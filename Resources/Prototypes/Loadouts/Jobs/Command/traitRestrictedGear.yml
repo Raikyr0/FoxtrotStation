@@ -1,0 +1,25 @@
+### All Command
+## Misc
+- type: loadout
+  id: LoadoutCommandRestrictedGearPenCentcom
+  category: JobsCommandAUncategorized
+  cost: 5
+  exclusive: true
+  requirements:
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - PenCentcom
+    
+- type: loadout
+  id: LoadoutCommandRestrictedGearCyberPen
+  category: JobsCommandAUncategorized
+  cost: 5
+  exclusive: true
+  requirements:
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - CyberPen
