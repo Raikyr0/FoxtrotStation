@@ -3,10 +3,6 @@
   name: job-name-atmostech
   description: job-description-atmostech
   playTimeTracker: JobAtmosphericTechnician
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Engineering
-    min: 14400 # The Den - 8 hours
   startingGear: AtmosphericTechnicianGear
   icon: "JobIconAtmosphericTechnician"
   supervisors: job-supervisors-ce

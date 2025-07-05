@@ -3,9 +3,6 @@
   name: job-name-engineer
   description: job-description-engineer
   playTimeTracker: JobStationEngineer
-  requirements:
-  - !type:CharacterOverallTimeRequirement
-    min: 14400 # 4hr floof # DeltaV - Reduced TC: External Access + Engineering
   startingGear: StationEngineerGear
   icon: "JobIconStationEngineer"
   supervisors: job-supervisors-ce
