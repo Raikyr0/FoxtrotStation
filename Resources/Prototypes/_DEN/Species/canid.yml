@@ -37,7 +37,7 @@
       required: true
       defaultMarkings: [ VulpEar ]
     Chest:
-      points: 4 # Frontier 1<4
+      points: 6
       required: false
     Genitals:
       points: 1
@@ -77,18 +77,18 @@
       required: false
     # Foxtrot start
     Face:
-      points: 1
+      points: 6
       required: false
     Head:
-      points: 1
+      points: 6
       required: false
     HeadSide:
-      points: 1
+      points: 2
       required: false
     Snout:
       points: 1
       required: false
     Overlay:
-      points: 1
+      points: 6
       required: false
     # Foxtrot end

@@ -68,7 +68,7 @@
       points: 6
       required: false
     Chest:
-      points: 4 # imp 3<4
+      points: 6
       required: false
     Underwear:
       points: 1
@@ -102,13 +102,13 @@
       required: false
     # Foxtrot start
     Face:
-      points: 1
+      points: 6
       required: false
     Head:
-      points: 1
+      points: 6
       required: false
     Overlay:
-      points: 1
+      points: 6
       required: false
     # Foxtrot end
 

@@ -57,7 +57,7 @@
       required: true
       defaultMarkings: [ RodentiaTailDefault ]
     Head:
-      points: 1
+      points: 6
       required: false
     RightLeg:
       points: 2
@@ -94,7 +94,7 @@
       points: 1
       required: false
     Chest:
-      points: 1
+      points: 6
       required: false
     Genitals:
       points: 1
@@ -110,7 +110,7 @@
       required: false
     # Foxtrot start
     Overlay:
-      points: 1
+      points: 6
       required: false
     # Foxtrot end
 

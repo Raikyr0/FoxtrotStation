@@ -99,7 +99,7 @@
       required: false
     # Foxtrot start
     Overlay:
-      points: 1
+      points: 6
       required: false
     # Foxtrot end
 

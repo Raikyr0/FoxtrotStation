@@ -45,7 +45,7 @@
       points: 1
       required: false
     Head:
-      points: 1
+      points: 6
       required: true
     Snout:
       points: 1
@@ -87,7 +87,7 @@
       points: 1
       required: false
     Overlay: # imp
-      points: 4
+      points: 6
       required: false
     Tail:
       points: 1
@@ -95,7 +95,7 @@
       defaultMarkings: [ VoxTail ]
     # Foxtrot start
     HeadSide:
-      points: 1
+      points: 6
       required: false
     Genitals:
       points: 1

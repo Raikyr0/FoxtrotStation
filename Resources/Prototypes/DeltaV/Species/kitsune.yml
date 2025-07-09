@@ -38,7 +38,7 @@
       # points: 1
       # required: false
     Chest:
-      points: 1
+      points: 6
       required: false
     # Legs:
       # points: 2
@@ -48,13 +48,13 @@
       # required: false
     # Foxtrot start
     Face:
-      points: 1
+      points: 6
       required: false
     Head:
-      points: 1
+      points: 6
       required: false
     HeadSide:
-      points: 1
+      points: 2
       required: false
     RightArm:
       points: 1
@@ -90,6 +90,6 @@
       points: 1
       required: false
     Overlay:
-      points: 1
+      points: 6
       required: false
     # Foxtrot end
