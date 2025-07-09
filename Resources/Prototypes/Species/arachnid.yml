@@ -98,10 +98,10 @@
       required: false
     # Foxtrot start
     Overlay:
-      points: 1
+      points: 6
       required: false
     Head:
-      points: 1
+      points: 6
       required: false
     Genitals:
       points: 1 # do these work?
