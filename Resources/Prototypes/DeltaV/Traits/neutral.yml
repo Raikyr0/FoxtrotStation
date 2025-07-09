@@ -4,6 +4,7 @@
   id: ScottishAccent
   category: TraitsSpeechAccents
   points: 0
+  slots: 0
   requirements:
     - !type:CharacterItemGroupRequirement
       group: TraitsAccents
@@ -18,6 +19,7 @@
   id: FrenchAccent
   category: TraitsSpeechAccents
   points: 0
+  slots: 0
   requirements:
     - !type:CharacterItemGroupRequirement
       group: TraitsAccents
@@ -30,6 +32,7 @@
   id: SpanishAccent
   category: TraitsSpeechAccents
   points: 0
+  slots: 0
   requirements:
     - !type:CharacterItemGroupRequirement
       group: TraitsAccents
@@ -42,6 +45,7 @@
   id: MobsterAccent
   category: TraitsSpeechAccents
   points: 0
+  slots: 0
   requirements:
     - !type:CharacterItemGroupRequirement
       group: TraitsAccents
@@ -54,6 +58,7 @@
   id: IrishAccent
   category: TraitsSpeechAccents
   points: 0
+  slots: 0
   requirements:
     - !type:CharacterItemGroupRequirement
       group: TraitsAccents
@@ -66,6 +71,7 @@
   id: RussianAccent
   category: TraitsSpeechAccents
   points: 0
+  slots: 0
   requirements:
     - !type:CharacterItemGroupRequirement
       group: TraitsAccents
