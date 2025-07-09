@@ -508,8 +508,13 @@ trait-description-PlateletFactories =
 
 trait-name-DermalArmor = Dermal Armor
 trait-description-DermalArmor =
-    Your skin has been replaced with a flexible, yet sturdy, hard-polymer shell wrapped in a layer of synthetic flesh.
-    This augmentation provides 1.5 points of flat reduction from all physical damage, while making the user take 25% more shock damage.
+    Your skin has reacts to physical trauma by hardening to a steel like consistancy, reducing physical damage taken.
+    This augmentation provides 1.5 points of flat reduction from all physical damage.
+
+trait-name-HeavyDermalArmor = Heavy Dermal Armor
+trait-description-HeavyDermalArmor =
+    Your skin has reacts to physical trauma by hardening to a plasteel like consistancy, heavily reducing physical damage taken.
+    This augmentation provides 3 points of flat reduction from all physical damage.
 
 trait-name-CyberEyes = Upgradable Cyber-Eyes
 trait-description-CyberEyes =
