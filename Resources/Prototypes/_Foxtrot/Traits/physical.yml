@@ -28,3 +28,7 @@
         - description: examine-bionic-arm-message
           fontSize: 12
           requireDetailRange: true
+    - !type:TraitModifyUnarmed
+      flatDamageIncrease:
+        types:
+          Blunt: 1
