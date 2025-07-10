@@ -1,13 +1,9 @@
 whitelist-not-whitelisted = You are not whitelisted.
 
 # proper handling for having a min/max or not
-whitelist-playercount-invalid = {$min ->
-    [0] The whitelist for this server only applies below {$max} players.
-    *[other] The whitelist for this server only applies above {$min} {$max ->
-        [2147483647] -> players, so you may be able to join later.
-       *[other] -> players and below {$max} players, so you may be able to join later.
-    }
-}
+# issue comes from the way whitelisting is being handled on the server, changing whitelist-playercount-invalid seems to be the only way to fix this without harming the soft whitelist code.
+# this change will have to be undone for the soft whitelist to be used properly in the future
+whitelist-playercount-invalid = You are not whitelisted.
 whitelist-not-whitelisted-rp = You are not whitelisted. To become whitelisted, visit our Discord and submit a whitelist application in #whitelist-applications.
 
 cmd-whitelistadd-desc = Adds the player with the given username to the server whitelist.
