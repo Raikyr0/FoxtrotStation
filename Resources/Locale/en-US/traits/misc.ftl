@@ -1,5 +1,6 @@
 examine-cybereyes-message = {CAPITALIZE(POSS-ADJ($entity))} eyes shine with a faint inner light.
-examine-dermal-armor-message = {CAPITALIZE(POSS-ADJ($entity))} skin seems to be made of a sturdy, yet flexible plastic.
+examine-dermal-armor-message = {CAPITALIZE(POSS-ADJ($entity))} skin seems to react to physical trauma by hardening into a steel like hardness.
+examine-heavy-dermal-armor-message = {CAPITALIZE(POSS-ADJ($entity))} skin seems to react to physical trauma by hardening into a plasteel like hardness.
 examine-bionic-arm-message = {CAPITALIZE(POSS-ADJ($entity))} arms emit an ever present faint chirp of servomotors.
 examine-bionic-leg-message = {CAPITALIZE(POSS-ADJ($entity))} legs emit an ever present faint chirp of servomotors.
 examine-thermal-vision-message = {CAPITALIZE(POSS-ADJ($entity))} eyes periodically pulse with a menacing red glare.
@@ -7,3 +8,8 @@ examine-featherweight-message = {CAPITALIZE(THE($entity))} appears noticably thi
 examine-bulky-message = {CAPITALIZE(THE($entity))} appears unusually large for a member of their species.
 examine-weakling-message = {CAPITALIZE(POSS-ADJ($entity))} body is noticeably willowy
 examine-bodybuilder-message = An impressive amount of muscle is visible on {POSS-ADJ($entity)} frame.
+examine-narcolepsy-message = {CAPITALIZE(POSS-ADJ($entity))} wears a medical tag which notes that this individual suffers from narcolepsy.
+examine-uncloneable-message = {CAPITALIZE(POSS-ADJ($entity))} wears a medical tag which notes that this individual can't be cloned.
+examine-blood-deficiency-message = {CAPITALIZE(POSS-ADJ($entity))} wears a medical tag which notes that this individual suffers from blood deficiency.
+examine-redshirt-message = {CAPITALIZE(POSS-ADJ($entity))} wears a medical tag which notes that this individual suffers from a condition commonly known as redshirt syndrome.
+examine-brittle-bone-disease-message = {CAPITALIZE(POSS-ADJ($entity))} wears a medical tag which notes that this individual suffers from osteogenesis imperfecta or more commonly known as brittle bone disease.

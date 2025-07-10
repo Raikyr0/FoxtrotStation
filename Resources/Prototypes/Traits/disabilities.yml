@@ -74,6 +74,11 @@
       - type: Narcolepsy
         timeBetweenIncidents: 300, 600
         durationOfIncident: 10, 30
+    - !type:TraitPushDescription
+      descriptionExtensions:
+        - description: examine-narcolepsy-message
+          fontSize: 12
+          requireDetailRange: true
 
 - type: trait
   id: Pacifist
@@ -137,6 +142,11 @@
     - !type:TraitAddComponent
       components:
         - type: Uncloneable
+    - !type:TraitPushDescription
+      descriptionExtensions:
+        - description: examine-uncloneable-message
+          fontSize: 12
+          requireDetailRange: true
 
 - type: trait
   id: FrontalLisp
@@ -267,6 +277,11 @@
       components:
         - type: BloodDeficiency # By default, start taking bloodloss damage at around ~21.4 minutes,
           bloodLossPercentage: 0.0002333333  # then become crit ~10 minutes
+    - !type:TraitPushDescription
+      descriptionExtensions:
+        - description: examine-blood-deficiency-message
+          fontSize: 12
+          requireDetailRange: true
 
 - type: trait
   id: Hemophilia

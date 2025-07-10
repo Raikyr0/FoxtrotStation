@@ -1,6 +1,7 @@
 - type: trait
   id: CumProducer
   category: Physical
+  slots: 0
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -34,6 +35,7 @@
 - type: trait
   id: MilkProducer
   category: Physical
+  slots: 0
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -67,6 +69,7 @@
 - type: trait
   id: SquirtProducer
   category: Physical
+  slots: 0
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -100,6 +103,7 @@
 - type: trait
   id: HoneyProducer
   category: Physical
+  slots: 0
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
