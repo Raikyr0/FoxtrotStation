@@ -110,13 +110,13 @@
       required: false
     # Foxtrot start
     Overlay:
-      points: 1
+      points: 6
       required: false
     Tail:
       points: 1
       required: false
     HeadTop:
-      points: 1
+      points: 6
       required: false
     # Foxtrot end
 

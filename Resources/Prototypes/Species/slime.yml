@@ -57,13 +57,13 @@
       points: 1
       required: false
     Head:
-      points: 4
+      points: 6
       required: false
     HeadTop:
       points: 4
       required: false
     Chest:
-      points: 4 # imp 1<4
+      points: 6
       required: false
     Genitals:
       points: 1
@@ -103,10 +103,10 @@
       required: false
     # Foxtrot start
     Face:
-      points: 1
+      points: 6
       required: false
     Overlay:
-      points: 1
+      points: 6
       required: false
     # Foxtrot end
 
