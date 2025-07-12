@@ -125,7 +125,7 @@
 
 - type: entity
   id: GrenadeEMP
-  name: "40mmEMP grenade"
+  name: "40mm EMP grenade"
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
