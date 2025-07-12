@@ -195,9 +195,9 @@
     WallRockChromite: WallRockChromiteTungsten
     WallRockSand: WallRockSandTungsten
     WallRockSnow: WallRockSnowTungsten
-  maxCount: 6
-  minGroupSize: 3
-  maxGroupSize: 6
+  maxCount: 12
+  minGroupSize: 5
+  maxGroupSize: 10
   radius: 4
 
 # Artifact Fragment
