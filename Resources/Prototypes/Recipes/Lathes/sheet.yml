@@ -1,7 +1,6 @@
 - type: latheRecipe
   id: SheetSteel
   result: SheetSteel1
-  applyMaterialDiscount: false
   miningPoints: 1
   completetime: 0 # 0.25 per 30
   materials:
@@ -19,7 +18,6 @@
 - type: latheRecipe
   id: SheetGlass1
   result: SheetGlass1
-  applyMaterialDiscount: false
   miningPoints: 1 # 0.25 per 30
   completetime: 0
   materials:
@@ -35,7 +33,6 @@
 - type: latheRecipe
   id: SheetRGlass
   result: SheetRGlass1
-  applyMaterialDiscount: false
   miningPoints: 1
   completetime: 0 # 0.75 per 30
   materials:
@@ -271,7 +268,7 @@
     state: bluespace
   result: MaterialBluespace1
   applyMaterialDiscount: false
-  completetime: 4
+  completetime: 1
   materials:
     RawBluespace: 100
 
@@ -282,14 +279,13 @@
     state: normality
   result: MaterialNormality1
   applyMaterialDiscount: false
-  completetime: 4
+  completetime: 1
   materials:
     RawNormality: 100
 
 - type: latheRecipe
   id: IngotTungsten1
   result: IngotTungsten1
-  applyMaterialDiscount: false
   miningPoints: 5
   completetime: 0 # Or, 4 seconds over 30 ingots.
   materials:
