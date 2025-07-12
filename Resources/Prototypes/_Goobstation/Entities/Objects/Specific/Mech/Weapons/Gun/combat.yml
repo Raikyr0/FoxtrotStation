@@ -63,7 +63,7 @@
       path: /Audio/Weapons/Guns/Gunshots/laser.ogg
   - type: HitscanBatteryAmmoProvider
     proto: RedMediumLaser
-    fireCost: 59
+    fireCost: 30
   - type: Appearance
   - type: AmmoCounter
 
@@ -86,7 +86,7 @@
       path: /Audio/Weapons/Guns/Gunshots/laser.ogg
   - type: HitscanBatteryAmmoProvider
     proto: RedLaser
-    fireCost: 39
+    fireCost: 10
   - type: Appearance
   - type: AmmoCounter
 
