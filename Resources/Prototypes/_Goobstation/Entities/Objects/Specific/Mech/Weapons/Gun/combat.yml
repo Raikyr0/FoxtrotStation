@@ -204,7 +204,7 @@
       path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: ShellShotgunIncendiary
-    fireCost: 99
+    fireCost: 40
   - type: Appearance
   - type: AmmoCounter
 
