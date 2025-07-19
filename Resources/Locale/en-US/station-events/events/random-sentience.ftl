@@ -1,4 +1,5 @@
 ﻿## Phrases used for where central command got this information.
+random-sentience-event-data-0 = our own sentience
 random-sentience-event-data-1 = scans from our long-range sensors
 random-sentience-event-data-2 = our sophisticated probabilistic models
 random-sentience-event-data-3 = our omnipotence
@@ -7,6 +8,7 @@ random-sentience-event-data-5 = energy emissions we detected
 random-sentience-event-data-6 = [REDACTED]
 
 ## Phrases used to describe the level of intelligence, though it doesn't actually affect anything.
+random-sentience-event-strength-0 = carp
 random-sentience-event-strength-1 = human
 random-sentience-event-strength-2 = primate
 random-sentience-event-strength-3 = moderate
