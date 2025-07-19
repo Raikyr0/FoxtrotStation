@@ -657,3 +657,14 @@ trait-description-RestrictedGear =
     Either through personal ownership or theft, you have access to equipment that isn't particularly standard issue.
     Note that starting with an item [color=red]doesn't certify its legality[/color]. Conceal it or justify it.
     (You equip other jobs' items and traits in the loadouts and traits menu) 
+
+trait-name-SurgeryTraining = Surgery Training
+trait-description-SurgeryTraining =
+    At some point in your life you acquired the knowledge and experience necessary for performing surgery effectively.
+    This trait boosts your surgery speed to 1.75, and is intended for non-medical characters, as medical jobs already have faster surgery.
+
+trait-name-ExperiencedSurgeon = Experienced Surgeon
+trait-description-ExperiencedSurgeon =
+    Surgery is your specialty. You are faster than most at your craft.
+    This trait boosts your surgery speed to 2.5, which is the same as the innate boost CMO gets.
+    (This is either a boost from 1.75 or 2 depending on your job)
