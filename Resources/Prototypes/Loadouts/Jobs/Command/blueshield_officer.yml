@@ -213,7 +213,7 @@
 - type: loadout
   id: LoadoutBSOMedkitCombatFilled
   category: JobsCommandBlueshieldOfficer
-  cost: 0
+  cost: 2
   requirements:
     - !type:CharacterJobRequirement
       jobs:
