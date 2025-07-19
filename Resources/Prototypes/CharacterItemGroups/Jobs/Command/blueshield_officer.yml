@@ -32,7 +32,7 @@
 
 - type: characterItemGroup
   id: LoadoutBlueshieldOfficerPrimary
-  maxItems: 1
+  maxItems: 2
   items:
     - type: loadout
       id: LoadoutBSORifleChester
