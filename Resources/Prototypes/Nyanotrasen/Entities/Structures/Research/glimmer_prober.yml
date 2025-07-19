@@ -13,12 +13,12 @@
     powersToAdd:
       - TelepathyPower
   - type: GlimmerSource
-    researchPointGeneration: 20
+    researchPointGeneration: 100
   - type: Construction
     graph: GlimmerDevices
     node: glimmerProber
   - type: ResearchPointSource
-    pointspersecond: 20
+    pointspersecond: 100
     active: true
   - type: Sprite
     sprite: DeltaV/Structures/Machines/glimmer_machines.rsi # DeltaV reskin
