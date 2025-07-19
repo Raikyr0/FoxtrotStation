@@ -376,7 +376,7 @@
     - !type:TraitAddComponent
       components:
         - type: SurgerySpeedModifier
-          speedModifier: 1.6
+          speedModifier: 1.75
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -397,7 +397,7 @@
     - !type:TraitReplaceComponent
       components:
       - type: SurgerySpeedModifier
-        speedModifier: 2.3
+        speedModifier: 2.5
   requirements:
     - !type:CharacterLogicOrRequirement
       requirements:
