@@ -499,6 +499,7 @@ trait-name-BionicArm = High-Grade Bionic Arm
 trait-description-BionicArm =
     One or more of your limbs have been replaced with an expensive, state of the art bionic. It could be either one made of highly realistic synthflesh,
     or a more obvious metal limb. This limb provides enhanced strength to its user, allowing one to pry open even powered barriers with their bare hands.
+    (Disclaimer - This trait will disable harpy flight.)
 
 trait-name-PlateletFactories = Platelet Factories
 trait-description-PlateletFactories =
