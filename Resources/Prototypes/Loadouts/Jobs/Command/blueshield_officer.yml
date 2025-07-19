@@ -153,7 +153,7 @@
 - type: loadout
   id: LoadoutBSORifleBRDIR25
   category: JobsCommandBlueshieldOfficer
-  cost: 9 # Significant upgrade over a Chester, offered here for the STYLE. Intentionally priced at you not being able to buy all 3 medical items alongside it, plus being unable to buy it alongside the CQC Manual.
+  cost: 10 # Significant upgrade over a Chester, offered here for the STYLE. Intentionally priced at you not being able to buy all 3 medical items alongside it, plus being unable to buy it alongside the CQC Manual.
   canBeHeirloom: true
   guideEntry: SecurityWeapons
   requirements:
@@ -183,7 +183,7 @@
 - type: loadout
   id: LoadoutBSOShield
   category: JobsCommandBlueshieldOfficer
-  cost: 0
+  cost: 5
   canBeHeirloom: true
   guideEntry: SecurityWeapons
   requirements:
@@ -198,7 +198,7 @@
 - type: loadout
   id: LoadoutBSOGreatsword
   category: JobsCommandBlueshieldOfficer
-  cost: 4
+  cost: 5
   canBeHeirloom: true
   guideEntry: SecurityWeapons
   requirements:
@@ -213,7 +213,7 @@
 - type: loadout
   id: LoadoutBSOMedkitCombatFilled
   category: JobsCommandBlueshieldOfficer
-  cost: 2
+  cost: 0
   requirements:
     - !type:CharacterJobRequirement
       jobs:
@@ -246,7 +246,7 @@
 - type: loadout
   id: LoadoutBSOCQCManual
   category: JobsCommandBlueshieldOfficer
-  cost: 8 # You can run this alongside the 3 medical items, but then you will be restricted to free gear for everything else such as weapons or other utilities.
+  cost: 12 # You can run this alongside the 3 medical items, but then you will be restricted to free gear for everything else such as weapons or other utilities.
   requirements: # Knowledge does not occupy a weapon slot. You are a trained bodyguard, so it makes sense to have it. Balanced out by costing over half of your loadout points.
     - !type:CharacterJobRequirement
       jobs:
