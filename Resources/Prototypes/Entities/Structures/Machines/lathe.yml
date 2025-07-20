@@ -1858,6 +1858,21 @@
       - TowelColorSilver
       - TowelColorMime
       - TowelColorNT
+      # Rai Update Belts/Webbings
+      - UtilityBeltUniformPrinter
+      - ClothingBeltJanitor
+      - ClothingBeltAssault
+      - ClothingBeltMedical
+      - ClothingBeltMedicalEMT
+      - ClothingBeltPlant
+      - ClothingBeltChef
+      - ClothingBeltSecurity
+      - ClothingBeltHolster
+      - ClothingBeltSecurityWebbing
+      - ClothingBeltMercWebbing
+      - ClothingBeltSalvageWebbing
+      - ClothingBeltMilitaryWebbing
+      - ClothingBeltWand
   - type: EmagLatheRecipes
     emagStaticRecipes:
     - ClothingHeadHatCentcomcap
@@ -1885,6 +1900,7 @@
     # TheDen - Towels
     - TowelColorCentcom
     - TowelColorSyndicate
+    - ClothingBeltSyndieHolster
   - type: MaterialStorage
     whitelist:
       tags:
