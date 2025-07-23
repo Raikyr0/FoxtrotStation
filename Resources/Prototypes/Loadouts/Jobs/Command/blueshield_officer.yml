@@ -183,7 +183,7 @@
 - type: loadout
   id: LoadoutBSOShield
   category: JobsCommandBlueshieldOfficer
-  cost: 5
+  cost: 1
   canBeHeirloom: true
   guideEntry: SecurityWeapons
   requirements:
@@ -198,7 +198,7 @@
 - type: loadout
   id: LoadoutBSOGreatsword
   category: JobsCommandBlueshieldOfficer
-  cost: 5
+  cost: 1
   canBeHeirloom: true
   guideEntry: SecurityWeapons
   requirements:
