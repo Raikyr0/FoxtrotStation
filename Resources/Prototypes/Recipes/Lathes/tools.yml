@@ -205,6 +205,133 @@
     Cloth: 100
     Steel: 50
 
+- type: latheRecipe # Floofstation
+  id: UtilityBeltUniformPrinter
+  result: ClothingBeltUtility
+  category: Belts
+  completetime: 2
+  materials:
+    Cloth: 200
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltMedical
+  result: ClothingBeltMedical
+  category: Belts
+  completetime: 2
+  materials:
+    Cloth: 200
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltMedicalEMT
+  result: ClothingBeltMedicalEMT
+  category: Belts
+  completetime: 2
+  materials:
+    Cloth: 200
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltPlant
+  result: ClothingBeltPlant
+  category: Belts
+  completetime: 2
+  materials:
+    Cloth: 200
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltChef
+  result: ClothingBeltChef
+  category: Belts
+  completetime: 2
+  materials:
+    Cloth: 200
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltJanitor
+  result: ClothingBeltJanitor
+  category: Belts
+  completetime: 2
+  materials:
+    Cloth: 200
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltHolster
+  result: ClothingBeltHolster
+  category: Belts
+  completetime: 2
+  materials:
+    Cloth: 200
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltSyndieHolster
+  result: ClothingBeltSyndieHolster
+  category: Belts
+  completetime: 2
+  materials:
+    Cloth: 200
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltAssault
+  result: ClothingBeltAssault
+  category: Belts
+  completetime: 2
+  materials:
+    Cloth: 200
+    Durathread: 100
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltSecurity
+  result: ClothingBeltSecurity
+  category: Belts
+  completetime: 2
+  materials:
+    Cloth: 200
+    Durathread: 100
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltWand
+  result: ClothingBeltWand
+  category: Belts
+  completetime: 2
+  materials:
+    Cloth: 200
+    Durathread: 100
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltSecurityWebbing
+  result: ClothingBeltSecurityWebbing
+  category: Belts
+  completetime: 4
+  materials:
+    Cloth: 500
+    Durathread: 300
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltMercWebbing
+  result: ClothingBeltMercWebbing
+  category: Belts
+  completetime: 4
+  materials:
+    Cloth: 500
+    Durathread: 300
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltSalvageWebbing
+  result: ClothingBeltSalvageWebbing
+  category: Belts
+  completetime: 4
+  materials:
+    Cloth: 500
+    Durathread: 300
+
+- type: latheRecipe # Floofstation
+  id: ClothingBeltMilitaryWebbing
+  result: ClothingBeltMilitaryWebbing
+  category: Belts
+  completetime: 4
+  materials:
+    Cloth: 500
+    Durathread: 500
+
 - type: latheRecipe
   id: HolofanProjector
   result: HolofanProjectorEmpty
