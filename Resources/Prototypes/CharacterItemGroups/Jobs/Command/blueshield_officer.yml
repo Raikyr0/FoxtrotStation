@@ -29,6 +29,8 @@
       id: LoadoutBSOMace
     - type: loadout
       id: LoadoutBSOAxe
+    - type: loadout
+      id: LoadoutWeaponSubMachineGunWt550BSOSecondary
 
 - type: characterItemGroup
   id: LoadoutBlueshieldOfficerPrimary
@@ -48,6 +50,8 @@
       id: LoadoutBSOTerminus
     - type: loadout
       id: LoadoutWeaponShotgunBulldogBSO
+    - type: loadout
+      id: LoadoutWeaponSubMachineGunWt550BSOPrimary
 
 #- type: characterItemGroup
 #  id: LoadoutJOBEyes
