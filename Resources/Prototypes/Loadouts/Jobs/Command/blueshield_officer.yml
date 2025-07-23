@@ -196,6 +196,36 @@
     - WeaponShotgunBulldog
 
 - type: loadout
+  id: LoadoutWeaponSubMachineGunWt550BSOPrimary
+  category: JobsCommandBlueshieldOfficer
+  cost: 3 # SMG
+  canBeHeirloom: true
+  guideEntry: SecurityWeapons
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBlueshieldOfficerPrimary
+    - !type:CharacterJobRequirement
+      jobs:
+        - BlueshieldOfficer
+  items:
+    - WeaponSubMachineGunWt550
+
+- type: loadout
+  id: LoadoutWeaponSubMachineGunWt550BSOSecondary
+  category: JobsCommandBlueshieldOfficer
+  cost: 3 # a SECOND SMG?
+  canBeHeirloom: true
+  guideEntry: SecurityWeapons
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBlueshieldOfficerSecondary
+    - !type:CharacterJobRequirement
+      jobs:
+        - BlueshieldOfficer
+  items:
+    - WeaponSubMachineGunWt550
+
+- type: loadout
   id: LoadoutBSOShield
   category: JobsCommandBlueshieldOfficer
   cost: 1
