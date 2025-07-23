@@ -181,7 +181,7 @@
     - WeaponRiflBSOAk
 
 - type: loadout
-  id: LoadoutWeaponShotgunBulldog
+  id: LoadoutWeaponShotgunBulldogBSO
   category: JobsCommandBlueshieldOfficer
   cost: 6 # a shotgun option no special retexture tho
   canBeHeirloom: true
