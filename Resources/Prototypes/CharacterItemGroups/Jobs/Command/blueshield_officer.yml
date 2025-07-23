@@ -34,8 +34,8 @@
   id: LoadoutBlueshieldOfficerPrimary
   maxItems: 2
   items:
-    - type: loadout
-      id: LoadoutBSORifleChester
+#    - type: loadout
+#      id: LoadoutBSORifleChester
     - type: loadout
       id: LoadoutBSORifleBRDIR25
     - type: loadout
@@ -46,6 +46,8 @@
       id: LoadoutWeaponRiflBSOAk
     - type: loadout
       id: LoadoutBSOTerminus
+    - type: loadout
+      id: LoadoutWeaponShotgunBulldogBSO
 
 #- type: characterItemGroup
 #  id: LoadoutJOBEyes
