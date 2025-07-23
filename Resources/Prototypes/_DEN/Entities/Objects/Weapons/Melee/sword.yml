@@ -26,8 +26,7 @@
     soundHit:
       collection: MetalThud
   - type: DamageOtherOnHit
-    staminaCost: 30
-  - type: MeleeRequiresWield
+    staminaCost: 15
   - type: EmbeddableProjectile
   - type: EmbedPassiveDamage
   - type: Wieldable
