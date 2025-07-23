@@ -101,54 +101,54 @@
   items:
     - BlueshieldAxe
 
-- type: loadout
-  id: LoadoutBSORifleChester
-  category: JobsCommandBlueshieldOfficer
-  cost: 0
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutBlueshieldOfficerPrimary
-    - !type:CharacterJobRequirement
-      jobs:
-        - BlueshieldOfficer
-  items:
-    - WeaponLeverChester
+#- type: loadout
+#  id: LoadoutBSORifleChester
+#  category: JobsCommandBlueshieldOfficer
+#  cost: 0
+#  canBeHeirloom: true
+#  guideEntry: SecurityWeapons
+#  requirements:
+#    - !type:CharacterItemGroupRequirement
+#      group: LoadoutBlueshieldOfficerPrimary
+#    - !type:CharacterJobRequirement
+#      jobs:
+#        - BlueshieldOfficer
+#  items:
+#    - WeaponLeverChester
 
-- type: loadout
-  id: LoadoutMagazineMagnumMagnumLeverRifle
-  category: JobsCommandBlueshieldOfficer
-  cost: 2
-  exclusive: true
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutSecurityEquipment
-    - !type:CharacterJobRequirement
-      jobs:
-        - BlueshieldOfficer
-  items:
-    - MagazineMagnumLeverRifle
+#- type: loadout
+#  id: LoadoutMagazineMagnumMagnumLeverRifle
+#  category: JobsCommandBlueshieldOfficer
+#  cost: 2
+#  exclusive: true
+#  requirements:
+#    - !type:CharacterDepartmentTimeRequirement
+#      department: Security
+#      min: 3600 # 1 hours
+#    - !type:CharacterItemGroupRequirement
+#      group: LoadoutSecurityEquipment
+#    - !type:CharacterJobRequirement
+#      jobs:
+#        - BlueshieldOfficer
+#  items:
+#    - MagazineMagnumLeverRifle
 
-- type: loadout
-  id: LoadoutMagazineMagnumMagnumLeverRifleSpare
-  category: JobsCommandBlueshieldOfficer
-  cost: 4
-  exclusive: true
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutSecurityEquipment
-    - !type:CharacterJobRequirement
-      jobs:
-        - BlueshieldOfficer
-  items:
-    - MagazineMagnumLeverRifle
+#- type: loadout
+#  id: LoadoutMagazineMagnumMagnumLeverRifleSpare
+#  category: JobsCommandBlueshieldOfficer
+#  cost: 4
+#  exclusive: true
+#  requirements:
+#    - !type:CharacterDepartmentTimeRequirement
+#      department: Security
+#      min: 3600 # 1 hours
+#    - !type:CharacterItemGroupRequirement
+#      group: LoadoutSecurityEquipment
+#    - !type:CharacterJobRequirement
+#      jobs:
+#        - BlueshieldOfficer
+#  items:
+#    - MagazineMagnumLeverRifle
 
 - type: loadout
   id: LoadoutBSORifleBRDIR25
