@@ -33,6 +33,8 @@
     - id: NitrogenTankFilled
     - id: PinpointerNuclear
     - id: RubberStampBlueshield
+    - id: WeaponLeverChester
+    - id: BlueshieldAmmunitionBoxFilled
 
 - type: entity
   id: LockerMagistrateFilled

@@ -29,13 +29,15 @@
       id: LoadoutBSOMace
     - type: loadout
       id: LoadoutBSOAxe
+    - type: loadout
+      id: LoadoutWeaponSubMachineGunWt550BSOSecondary
 
 - type: characterItemGroup
   id: LoadoutBlueshieldOfficerPrimary
-  maxItems: 1
+  maxItems: 2
   items:
-    - type: loadout
-      id: LoadoutBSORifleChester
+#    - type: loadout
+#      id: LoadoutBSORifleChester
     - type: loadout
       id: LoadoutBSORifleBRDIR25
     - type: loadout
@@ -46,6 +48,10 @@
       id: LoadoutWeaponRiflBSOAk
     - type: loadout
       id: LoadoutBSOTerminus
+    - type: loadout
+      id: LoadoutWeaponShotgunBulldogBSO
+    - type: loadout
+      id: LoadoutWeaponSubMachineGunWt550BSOPrimary
 
 #- type: characterItemGroup
 #  id: LoadoutJOBEyes

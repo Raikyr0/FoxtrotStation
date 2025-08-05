@@ -254,7 +254,7 @@
         shader: unshaded
         map: [ "blade" ]
   - type: MeleeWeapon # DeltaV - reduced attack rate of e-cutlass; slower, more brutal swings
-    attackRate: 1.5
+    attackRate: 1
     soundHit:
       path: /Audio/Weapons/eblade1.ogg
     damage:
@@ -281,7 +281,7 @@
   suffix: Security Loadouts
   components:
   - type: MeleeWeapon
-    attackRate: 1.25
+    attackRate: 1
   - type: ItemToggleMeleeWeapon
     activatedDamage:
         types:

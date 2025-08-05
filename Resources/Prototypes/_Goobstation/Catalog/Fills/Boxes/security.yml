@@ -7,5 +7,13 @@
     contents:
     - id: MagazineBoxMagnum
       amount: 2
+    - id: MagazineBoxMagnumRubber
+      amount: 2
+    - id: MagazineBoxMagnumIncendiary
+    - id: MagazineBoxMagnumUranium
+    - id: MagazineBoxMagnumAP
+    - id: MagazineBoxMagnumShrapnel
+      amount: 2
     - id: MagazineBoxMagnumFlash
+    - id: MagazineBoxMagnumEnsnaring
     # - id: MagazineBoxMagnumEMP

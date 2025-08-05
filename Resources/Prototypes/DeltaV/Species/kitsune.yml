@@ -10,6 +10,7 @@
   # baseScale: 1, 1
   minHeight: .85
   maxHeight: 1.05
+  customName: true
 
 - type: markingPoints
   id: MobKitsuneMarkingLimits

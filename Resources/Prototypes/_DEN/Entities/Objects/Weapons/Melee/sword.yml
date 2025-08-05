@@ -9,7 +9,7 @@
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
-    attackRate: 1.50
+    attackRate: 1.2
     range: 1.85
     damage:
       types:
@@ -20,17 +20,22 @@
     heavyRateModifier: 2
     heavyRangeModifier: 1
     heavyDamageBaseModifier: 1.2
-    heavyStaminaCost: 30
+    heavyStaminaCost: 10
     maxTargets: 10
     angle: 90
     soundHit:
       collection: MetalThud
   - type: DamageOtherOnHit
-    staminaCost: 30
-  - type: MeleeRequiresWield
+    staminaCost: 15
   - type: EmbeddableProjectile
   - type: EmbedPassiveDamage
   - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Slash: 10
+        Blunt: 5
+        Structural: 20
   - type: MeleeThrowOnHit
     speed: 5
     lifetime: 0.05
