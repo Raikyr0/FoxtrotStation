@@ -148,7 +148,7 @@
   - type: StationEvent
     weight: 6
     duration: 1
-    earliestStart: 90 # Floof
+    earliestStart: 5 # Floof
     reoccurrenceDelay: 60 # Floof
     minimumPlayers: 30 # Floof
   - type: SpaceSpawnRule
@@ -197,7 +197,7 @@
     weight: 7.5
     duration: 1
     earliestStart: 45
-    minimumPlayers: 20
+    minimumPlayers: 5
   - type: RandomSpawnRule
     prototype: MobRevenant
 
@@ -246,7 +246,7 @@
   - type: StationEvent
     earliestStart: 30
     weight: 7.5
-    minimumPlayers: 20 # Floof
+    minimumPlayers: 5 # Floof
     startAnnouncement: true
     endAnnouncement: true
     duration: null #ending is handled by MeteorSwarmRule
@@ -433,7 +433,7 @@
     startAnnouncement: true
     startDelay: 10
     earliestStart: 20
-    minimumPlayers: 15
+    minimumPlayers: 5
     weight: 3
     duration: 60
   - type: VentCrittersRule
@@ -454,7 +454,7 @@
     startAnnouncement: true
     startDelay: 10
     earliestStart: 20
-    minimumPlayers: 15
+    minimumPlayers: 5
     weight: 3
     duration: 60
   - type: VentCrittersRule
@@ -471,7 +471,7 @@
     startAnnouncement: false
     startDelay: 10
     earliestStart: 20
-    minimumPlayers: 20
+    minimumPlayers: 5
     weight: 1.5
     duration: 60
   - type: VentCrittersRule
@@ -590,8 +590,8 @@
   - type: StationEvent
     earliestStart: 25
     weight: 8
-    minimumPlayers: 15
-    reoccurrenceDelay: 30
+    minimumPlayers: 1
+    reoccurrenceDelay: 1
     startAnnouncement: false
 # - type: AlertLevelInterceptionRule - Disable setting to blue with sleeper agents. Uncomment to enable.
   - type: AntagSelection
@@ -599,8 +599,8 @@
     - prefRoles: [ TraitorSleeper ]
       fallbackRoles: [ Traitor ]
       min: 1
-      max: 2
-      playerRatio: 10
+      max: 99
+      playerRatio: 1
       blacklist:
         components:
         - AntagImmune
@@ -654,7 +654,7 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: StationEvent
-      earliestStart: 20 # Floof
+      earliestStart: 5 # Floof
       minimumPlayers: 20
       maxOccurrences: 1 # this event has diminishing returns on interesting-ness, so we cap it
       weight: 5

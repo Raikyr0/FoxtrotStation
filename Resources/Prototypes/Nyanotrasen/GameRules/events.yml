@@ -20,7 +20,7 @@
   - type: StationEvent
     weight: 7
     reoccurrenceDelay: 5
-    minimumPlayers: 15
+    minimumPlayers: 5
     earliestStart: 25
   - type: MidRoundAntagRule
 
