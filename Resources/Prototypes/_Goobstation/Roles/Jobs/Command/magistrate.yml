@@ -6,10 +6,10 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Command
-      min: 54000 # 15 hours
+      min: 108000 # 30 hours
     - !type:CharacterDepartmentTimeRequirement
       department: Security
-      min: 54000 # 15 hours
+      min: 108000 # 30 hours
   weight: 20
   startingGear: MagistrateGear
   icon: "JobIconMagistrate"
