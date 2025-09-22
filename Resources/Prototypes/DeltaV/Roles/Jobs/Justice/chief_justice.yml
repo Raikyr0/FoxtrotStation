@@ -6,7 +6,7 @@
   requirements:
     - !type:CharacterPlaytimeRequirement
       tracker: JobClerk
-      min: 7200 # 2 hours
+      min: 115200 # 2 hours
     - !type:CharacterPlaytimeRequirement
       tracker: JobLawyer
       min: 7200 # 2 hours

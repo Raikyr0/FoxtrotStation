@@ -6,7 +6,7 @@
   requirements:
     - !type:CharacterPlaytimeRequirement
       tracker: JobAtmosphericTechnician
-      min: 28800 # The Den - 8 hour
+      min: 136800 # The Den - 8 hour
 #    - !type:OverallPlaytimeRequirement
 #      time: 72000 # DeltaV - 20 hours
   weight: 10

@@ -8,7 +8,7 @@
   requirements:
     - !type:CharacterPlaytimeRequirement
       tracker: JobChemist
-      min: 28800 # The Den - 8 hour
+      min: 136800 # The Den - 8 hour
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"
