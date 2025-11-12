@@ -1,4 +1,5 @@
 lathe-category-ammo = Ammo
+lathe-category-belts = Belts
 lathe-category-circuitry = Circuitry
 lathe-category-books = Books
 lathe-category-lights = Lights
