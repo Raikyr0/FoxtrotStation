@@ -69,7 +69,7 @@
         - PlushieDignifiedVulp
         - PlushieSlips
         - PlushieJester
-        - PlushieKitsuneCaptain
+        #- PlushieKitsuneCaptain
       chance: 0.5
       offset: 0.2
 
