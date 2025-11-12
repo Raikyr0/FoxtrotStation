@@ -39,6 +39,10 @@
   - type: StationEvent
     weight: 8
     duration: 35
+    conditions:
+    - !type:DepartmentCountCondition
+      department: Epistemics
+      range: {min: 1}
   - type: AnomalySpawnRule
 
 - type: entity
@@ -251,6 +255,10 @@
     endAnnouncement: true
     duration: null #ending is handled by MeteorSwarmRule
     startDelay: 30
+    conditions:
+    - !type:DepartmentCountCondition
+      department: Engineering
+      range: {min: 1}
   - type: MeteorSwarmRule
 
 - type: entity
@@ -436,6 +444,10 @@
     minimumPlayers: 5
     weight: 3
     duration: 60
+    conditions:
+    - !type:DepartmentCountCondition
+      department: Security
+      range: {min: 1}
   - type: VentCrittersRule
     entries:
     - id: MobAdultSlimesBlueAngry
@@ -457,6 +469,10 @@
     minimumPlayers: 5
     weight: 3
     duration: 60
+    conditions:
+    - !type:DepartmentCountCondition
+      department: Security
+      range: {min: 1}
   - type: VentCrittersRule
     entries:
     - id: MobGiantSpiderAngry
@@ -474,6 +490,10 @@
     minimumPlayers: 5
     weight: 1.5
     duration: 60
+    conditions:
+    - !type:DepartmentCountCondition
+      department: Security
+      range: {min: 2}
   - type: VentCrittersRule
     entries:
     - id: MobClownSpider
@@ -658,6 +678,10 @@
       minimumPlayers: 20
       maxOccurrences: 1 # this event has diminishing returns on interesting-ness, so we cap it
       weight: 5
+      conditions:
+      - !type:DepartmentCountCondition
+        department: Security
+        range: {min: 1}
     - type: MobReplacementRule
 
 # - type: entity
