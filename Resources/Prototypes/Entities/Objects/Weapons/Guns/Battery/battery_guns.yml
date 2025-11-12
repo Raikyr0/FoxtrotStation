@@ -5,7 +5,9 @@
   components:
   - type: Sprite
   - type: Item
-    size: Huge
+    size: Large
+    shape:
+    - 0,0,4,1
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
     quickEquip: false
@@ -161,6 +163,9 @@
   components:
   - type: Item
     size: Small
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
   - type: Tag
     tags:
     - Sidearm
@@ -674,6 +679,8 @@
   components:
   - type: Item
     size: Large
+    shape: 
+    - 0,0,3,1
   - type: Tag
     tags:
       - Taser
@@ -999,7 +1006,7 @@
   - type: Item
     size: Large
     shape:
-    - 0,0,3,1
+    - 0,0,4,1
     sprite: Objects/Weapons/Guns/Battery/inhands_64x.rsi
     heldPrefix: energy
   - type: Tag
