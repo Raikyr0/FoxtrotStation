@@ -112,7 +112,7 @@ public abstract partial class StationEventCondition
 
                 // 2: If failed, try to fetch it from the mind component instead
                 if (job == default
-                    && EntMan.TryGetComponent<JobComponent>(mind, out var jobComp)
+                    && EntMan.TryGetComponent<JobRoleComponent>(mind, out var jobComp)
                     && jobComp.Prototype is {} mindJobProto
                 )
                     job = mindJobProto;
