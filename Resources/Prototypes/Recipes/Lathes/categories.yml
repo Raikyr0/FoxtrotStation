@@ -4,8 +4,11 @@
 
 - type: latheCategory
   id: Circuitry
-  name: lathe-category-circuitry
+  name: lathe-category-belts
 
+- type: latheCategory
+  id: Belts
+  name: lathe-category-circuitry
 
 - type: latheCategory
   id: Books
