@@ -322,13 +322,6 @@
       traits:
         - Blindness
         - CyberEyes
-        - FlareShieldingModule
-        - SecurityEyesModule
-        - MedicalEyesModule
-        - DiagnosticEyesModule
-        - OmniEyesModule
-        - LightAmplificationModule
-        - ThermographicVisionModule
   functions:
     - !type:TraitReplaceComponent
       components:
