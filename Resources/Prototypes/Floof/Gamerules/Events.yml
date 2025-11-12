@@ -10,6 +10,10 @@
     minimumPlayers: 35
     weight: 6 # Really weak compared to other critters
     duration: 60
+    conditions:
+    - !type:DepartmentCountCondition
+      department: Security
+      range: {min: 1}
   - type: VentCrittersRule
     entries:
     - id: MobArgocyteSlurva
@@ -77,6 +81,10 @@
     minimumPlayers: 20
     weight: 6 # Really weak compared to other critters
     duration: 60
+    conditions:
+    - !type:DepartmentCountCondition
+      department: Security
+      range: {min: 1}
   - type: VentCrittersRule
     entries:
     - id: MobTick
@@ -94,6 +102,10 @@
     minimumPlayers: 30
     weight: 6 # Really weak compared to other critters
     duration: 60
+    conditions:
+    - !type:DepartmentCountCondition
+      department: Security
+      range: {min: 1}
   - type: VentCrittersRule
     entries:
     - id: MobCarp
@@ -120,6 +132,10 @@
     reoccurrenceDelay: 12
     minimumPlayers: 20
     weight: 6 # Really weak compared to other critters
+    conditions:
+    - !type:DepartmentCountCondition
+      department: Security
+      range: {min: 1}
   - type: VentCrittersRule
     entries:
     - id: MobCarp
@@ -141,6 +157,10 @@
     minimumPlayers: 35
     weight: 6 # Really weak compared to other critters
     duration: 60
+    conditions:
+    - !type:DepartmentCountCondition
+      department: Security
+      range: {min: 1}
   - type: VentCrittersRule
     entries:
     - id: MobBearSpace
