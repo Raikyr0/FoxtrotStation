@@ -14,17 +14,19 @@
         - Photophobia
         - Nearsighted
         - CyberEyes
-        - FlareShieldingModule
-        - SecurityEyesModule
-        - MedicalEyesModule
-        - DiagnosticEyesModule
-        - OmniEyesModule
-        - LightAmplificationModule
-        - ThermographicVisionModule
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
   functions:
     - !type:TraitAddComponent
       components:
         - type: PermanentBlindness
+        - type: FlashImmunity # You can't be flashed if you can't see it
+        - type: EyeProtection
+    - !type:TraitReplaceComponent
+      components:
+        - type: Flashable
 
 - type: trait
   id: Nearsighted
@@ -41,13 +43,10 @@
       traits:
         - Blindness
         - CyberEyes
-        - FlareShieldingModule
-        - SecurityEyesModule
-        - MedicalEyesModule
-        - DiagnosticEyesModule
-        - OmniEyesModule
-        - LightAmplificationModule
-        - ThermographicVisionModule
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
   functions:
     - !type:TraitAddComponent
       components:
