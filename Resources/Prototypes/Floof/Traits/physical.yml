@@ -104,8 +104,8 @@
   functions:
   - !type:TraitAddComponent
     components:
-    - type: PlayerToolModifier # TODO: switch to using a tiny component/system to remove compatibility issues?
-      pryTimeMultiplier: 1.4 # 40% longer prying time
+    #- type: PlayerToolModifier # TODO: switch to using a tiny component/system to remove compatibility issues?
+    #  pryTimeMultiplier: 1.4 # 40% longer prying time
     - type: BonusMeleeDamage # TODO: switch to using a tiny component/system to remove compatibility issues?
       damageModifierSet:
         coefficients:
