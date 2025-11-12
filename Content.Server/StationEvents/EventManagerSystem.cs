@@ -24,11 +24,16 @@ public sealed class EventManagerSystem : EntitySystem
     public bool EventsEnabled { get; private set; }
     private void SetEnabled(bool value) => EventsEnabled = value;
 
+    private StationEventCondition.Dependencies _eventConditionDeps = default!; // Floof
+
     public override void Initialize()
     {
         base.Initialize();
 
         Subs.CVar(_configurationManager, CCVars.EventsEnabled, SetEnabled, true);
+
+        _eventConditionDeps = new(EntityManager, GameTicker, this); // Floof
+        _eventConditionDeps.Initialize();
     }
 
     /// <summary>
