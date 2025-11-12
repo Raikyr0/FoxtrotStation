@@ -10,6 +10,10 @@
     minimumPlayers: 10
     weight: 6 # Really weak compared to other critters
     duration: 60
+    conditions:
+    - !type:DepartmentCountCondition
+      department: Security
+      range: {min: 1}
   - type: VentCrittersRule
     entries:
     - id: MobXeno
@@ -39,6 +43,10 @@
     startAnnouncement: true
     reoccurrenceDelay: 12
     minimumPlayers: 1
+    conditions:
+    - !type:DepartmentCountCondition
+      department: Security
+      range: {min: 1}
   - type: VentCrittersRule
     entries:
     - id: MobXeno
