@@ -112,8 +112,8 @@
           Blunt: 0.8
           Slash: 0.8
           Piercing: 0.8
-    - type: BonusStaminaDamage # TODO: switch to using a tiny component/system to remove compatibility issues?
-      multiplier: 0.8
+    #- type: BonusStaminaDamage # TODO: switch to using a tiny component/system to remove compatibility issues?
+    #  multiplier: 0.8
   - !type:TraitReplaceComponent
     components:
     - type: PseudoItem # TODO: fix PseudoItem direct insertion bug - not created by this trait, but particularly noticeable when using it
