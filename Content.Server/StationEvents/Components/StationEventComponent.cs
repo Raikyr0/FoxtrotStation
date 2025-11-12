@@ -82,4 +82,10 @@ public sealed partial class StationEventComponent : Component
     [DataField("endTime", customTypeSerializer: typeof(TimeOffsetSerializer))]
     [AutoPausedField]
     public TimeSpan? EndTime;
+
+    /// <summary>
+    ///     A list of conditions that must be met for the event to run.
+    /// </summary>
+    [DataField]
+    public List<StationEventCondition>? Conditions;
 }
